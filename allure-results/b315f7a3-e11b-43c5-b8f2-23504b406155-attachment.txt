@@ -1,0 +1,18 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 7' test cases in the current suite                                        
+                                         Test Method: 'testCases.GetAllCompanies.getAllCompaniesDetails'                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/GetCompaniesTestData.json". @09-02-2025 01:29:56.0381 AM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @09-02-2025 01:29:56.0410 AM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @09-02-2025 01:30:01.0369 AM
+[ReportManager] Handle response; GET | Target Status Code: 200 | Response Time: 839ms. @09-02-2025 01:30:01.0449 AM
+[ReportManager] Assert that "11" is equal to "11". @09-02-2025 01:30:02.0410 AM
+[ReportManager] Expected "11", and actual "11" @09-02-2025 01:30:02.0468 AM
+[ReportManager] Expected "11", and actual "11" @09-02-2025 01:30:02.0503 AM
+[ReportManager] Assertion passed @09-02-2025 01:30:02.0514 AM
+[ReportManager] Assert that "1" is equal to "1". @09-02-2025 01:30:02.0581 AM
+[ReportManager] Expected "1", and actual "1" @09-02-2025 01:30:02.0593 AM
+[ReportManager] Expected "1", and actual "1" @09-02-2025 01:30:02.0594 AM
+[ReportManager] Assertion passed @09-02-2025 01:30:02.0595 AM

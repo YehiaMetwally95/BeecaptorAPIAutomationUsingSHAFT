@@ -1,0 +1,1491 @@
+[INFO ] 2025-02-09 01:29:54.192 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.9.1.20250203[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:29:54.202 [] ReportManager - Checking for engine updates...
+[INFO ] 2025-02-09 01:29:54.241 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2025-02-09 01:29:54.264 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2025-02-09 01:29:54.288 [main] ReportManager - TestNG run detected...
+[INFO ] 2025-02-09 01:29:55.212 [main] Utils - [TestNG] Running:
+  C:\Users\Yehia.Metwally\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[INFO ] 2025-02-09 01:29:55.328 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:29:55.572 [main] ReportManager - Initializing Properties...
+[INFO ] 2025-02-09 01:29:56.375 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 7' test cases in the current suite                                        
+                                         Test Method: 'testCases.GetAllCompanies.getAllCompaniesDetails'                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:29:56.381 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/GetCompaniesTestData.json".
+[INFO ] 2025-02-09 01:29:56.411 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2025-02-09 01:29:58.050 [] ReportManager - Loaded OpenCV "opencv_java490".
+[DEBUG] 2025-02-09 01:29:59.337 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2025-02-09 01:29:59.393 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2025-02-09 01:29:59.963 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2025-02-09 01:29:59.966 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2025-02-09 01:29:59.969 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Yehia.Metwally/.m2/repository/io/qameta/allure/allure-attachments/2.29.1/allure-attachments-2.29.1.jar!/tpl/http-request.ftl"
+[DEBUG] 2025-02-09 01:30:00.096 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-02-09 01:30:00.099 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-02-09 01:30:00.100 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-02-09 01:30:00.102 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-02-09 01:30:00.103 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-02-09 01:30:00.104 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.106 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.106 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.106 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.106 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.106 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.107 [] wire -  >> "[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.107 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-02-09 01:30:00.107 [] headers - >> Accept: */*
+[DEBUG] 2025-02-09 01:30:00.107 [] headers - >> Host: api.github.com
+[DEBUG] 2025-02-09 01:30:00.107 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-02-09 01:30:00.107 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)
+[DEBUG] 2025-02-09 01:30:00.107 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-02-09 01:30:00.375 [main] BasicClientConnectionManager - Get connection for route {s}->https://fake-json-api.mock.beeceptor.com:443
+[DEBUG] 2025-02-09 01:30:00.381 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.384 [] wire -  << "Date: Sat, 08 Feb 2025 23:29:58 GMT[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.384 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.384 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.384 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.384 [] wire -  << "ETag: W/"dd85a145a6079e93c4abc69b1e77ed8f7bc6cf29acc0dc20e2c780ffb22b7242"[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.385 [] wire -  << "Last-Modified: Mon, 03 Feb 2025 09:17:02 GMT[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.385 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.385 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.385 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.385 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.385 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.385 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.385 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.385 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.386 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.386 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.386 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.386 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.386 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.386 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.386 [] wire -  << "X-RateLimit-Remaining: 57[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.386 [] wire -  << "X-RateLimit-Reset: 1739060781[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.386 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.386 [] wire -  << "X-RateLimit-Used: 3[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.386 [] wire -  << "Content-Length: 2242[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.387 [] wire -  << "X-GitHub-Request-Id: D8E4:34F7E9:1E2B733:1F65E19:67A7E8F5[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.387 [] wire -  << "[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.388 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-02-09 01:30:00.388 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-02-09 01:30:00.389 [] headers - << Date: Sat, 08 Feb 2025 23:29:58 GMT
+[DEBUG] 2025-02-09 01:30:00.389 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2025-02-09 01:30:00.389 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2025-02-09 01:30:00.389 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2025-02-09 01:30:00.389 [] headers - << ETag: W/"dd85a145a6079e93c4abc69b1e77ed8f7bc6cf29acc0dc20e2c780ffb22b7242"
+[DEBUG] 2025-02-09 01:30:00.389 [] headers - << Last-Modified: Mon, 03 Feb 2025 09:17:02 GMT
+[DEBUG] 2025-02-09 01:30:00.389 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2025-02-09 01:30:00.389 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2025-02-09 01:30:00.389 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2025-02-09 01:30:00.389 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-02-09 01:30:00.389 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2025-02-09 01:30:00.389 [] headers - << X-Frame-Options: deny
+[DEBUG] 2025-02-09 01:30:00.389 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2025-02-09 01:30:00.389 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2025-02-09 01:30:00.389 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2025-02-09 01:30:00.389 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2025-02-09 01:30:00.390 [] headers - << Content-Encoding: gzip
+[DEBUG] 2025-02-09 01:30:00.390 [] headers - << Server: github.com
+[DEBUG] 2025-02-09 01:30:00.390 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2025-02-09 01:30:00.390 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2025-02-09 01:30:00.390 [] headers - << X-RateLimit-Remaining: 57
+[DEBUG] 2025-02-09 01:30:00.390 [] headers - << X-RateLimit-Reset: 1739060781
+[DEBUG] 2025-02-09 01:30:00.390 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2025-02-09 01:30:00.390 [] headers - << X-RateLimit-Used: 3
+[DEBUG] 2025-02-09 01:30:00.390 [] headers - << Content-Length: 2242
+[DEBUG] 2025-02-09 01:30:00.390 [] headers - << X-GitHub-Request-Id: D8E4:34F7E9:1E2B733:1F65E19:67A7E8F5
+[DEBUG] 2025-02-09 01:30:00.417 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2025-02-09 01:30:00.418 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]Zmo[0xa3]H[0x12][0xfe]+-[0xaf]V'[0xcd][0x5]l0v0[0xd2]h/3[0xc9][0xec][0x8e]n[0x93][0xb9][0xd9]D[0xb7][0xd2][0xed][0xae][0xa2][0x6][0xb7][0xa1]m[0xa0][0x99]n[0xb0][0xe3][0x89][0xe6]"
+[DEBUG] 2025-02-09 01:30:00.419 [] wire -  << "[0xbf][0xdf][0xd3][\r][0xb6][0x83][0xd7][0x93][0xc9][0xc4][0xe4]C[0xa0]M[0xa0][0xaa][0xa8][0xae][0xaa][0xa7]^[0xb8][0xef]U2[0xed][0x5][0xbd][0xa4],[0xb][0x15][0xf4][0xfb][0xb4][0xe0]v[0xcc][0xcb][0xa4][\n]"
+[DEBUG] 2025-02-09 01:30:00.419 [] wire -  << "[0xed]Hd}[0xc9][\n]"
+[DEBUG] 2025-02-09 01:30:00.419 [] wire -  << "[0xa1][0xfa][0xd7][0x9][0x9d][0x95][0xbf]|[0xec]_[0xff]r[0xf6][0xee][0xe6][0xf6][0xe2][0xea][0xe7][0xf7]W[0x17][0xf8]W[0xca][0xa8]b[0xaa][0xef]L[0xfc][0x81]7[0xf1][0x86][0x93][0xde]I[0x8f]*[0xc5]Ju[0xdb][0x1d][0xcd]~M[0x11][0xa4][0xab]"[0x15]t[0xba]G[0xba][0xbe][0xa8][0x9e]-rC[0xfe][0xfe][0xa7][0x9c]f[0xec]$[0xa5]!K[0xbf][0x80]WRf[0xe9][0x1e][0xa7][0x7]Jy\[0x1d]%[0x8d][0xfb][0x13][0xdb][0xb1][0xdd][0x81];[0x1a][0xb8][0x83]![0xc8][0xf1]i/[0xd8]j[0x9]J[0xaa][0xca]D[0xc8]^p[0xdf]KE[0xcc]sh[0xbf]&n[0xd1][0xa8][0xe4]"W[0x84][0xa2][0xfc][0xab]y[0xcc]s[0xfc][0x89][0xef][0xfa][0xee]I/[0x17]Sv[0xab])[0xf5].[0xcf]/[0xc7][0x1f][0xb3][0xc9][0xe0][0xea][0xfc][0xc2][0xfb]p[0x13][0xaf]?[0x9c][0xbf][0xad]u[0xbf][0xa4]%[0x95][0xfb][0xba]7[0x17]7[\n]"
+[DEBUG] 2025-02-09 01:30:00.420 [] wire -  << "[0xaa][0x14][0x93][0x91][0xc8]K[0x96][0x97]f{y[0xde]wF[0xc3][0xb1][0xff][0xd3][0xf2][0xb5][0x7][\n]"
+[DEBUG] 2025-02-09 01:30:00.420 [] wire -  << "[0xb1]lh[0x18]6Z[0xe7][0x8f][0xd9][0x86]&[0xa6][0xfa]m[0xd1][0x1c][0xbd][0x81][0xf0]?[0x8e][0xce][0xbf][0xa9]DZ[0x14][0xfb][0xf][0xe3][0x99][0x99]HS[0xb1][0x2][0xdd][0xfd][0xd7]h[0x9b][0xe5][0xa3][0xac][0xfb]["[[0x82]<[0x8f][0x8f]'[0x8]"[0xf7]}Q&[0xc]:[0xc6][0xab]k;[0x89][0xb9][0xfa][0x96][0xb5]?.[0xaa]!p[0xf]%[0xaa][0x12]{[0xab]I*l[0x97]d[0xfb]v[0xbe][0xe7][0x96][0x8f][0x13]mH@[0xd8]U[0xe]9[0xef][0x8d][0x17][0x1b][0xda]U[0xa8]"[0xc9][0xb]ce[0xc7]([0xa4]E[0x8][0x84][0x85][0x8c]i[0xce]?[0xd3][0xa3][0x9][0x83][0x90][0x2]=[0x13]v[0x8e][0x11][0xd0][0x10][0x0]![0xb6][0x84][0xa9][0x1f]E[0xa9][0xa6]p[0xdf]/$_[0xd2]h[0xad][0xd5](Y[0xc4][0xf8][0x12]{t<[0xf5]=R ^[0xae][0xb][0x6][0xe7]{#J[0xfc][0xd0][0xfb]|[0xbb][0xe4]lu[0xdb]\.[0xaa]0[0xe5][0x91][0xde]J^[0xb2][:[0xcd]t[0xf8][0x98][0xd1]T[0xb1]/[0xf]#[0xc4]o[0x17][0xb7][0x8b][0xd5][0xf9][0x87][0xb7]?[0xb3][0x9b][0xb1][0xf2]~[0xfd]<[0x1b][0xcf]4i[0x1a][0xdf][0xea]8[0x7][0xf2]{[0x1][\n]"
+[DEBUG] 2025-02-09 01:30:00.420 [] wire -  << "6[0x17][0xb3][0xf2][0x16]!![0xe3]%W[0x9][0xee][0xc8](H[0x83][0xe6][0xc1][0xfb][0xa7][0x12][0x80][0xd0]0>[0xe9][0x15][0x92]5`[0xb0][0xbd][0x14]IFKh[0x88][0xe2][0xae][0x9e][0x8e][0x84][0xd6][0xc0][0xb5][0x6][0xc3][0x9b][0xc1]$p[0xc6][0xc1]p[0xf2]?[0x90]6[0xef][0xa2][0x92][0xaf][0xdc]u[0x1a][0xc]\}W[0x13][0xff][0x83]?[0xfe][0xd2]/ C[0x9a][0xee]G[0xe6][0xa7]CV[0xf3][0xfc]~x[0xfe][0xcc][0x8b][0xa3][0xc8]6[0xcf][0xef][0x93][\r][0xc5]t[0x8d][0xb7][0xff][0xe1][0x7][0xf2]{B[0xcb]([0xf2]6[0xa1]y[0xcc][0xa6][0xe6][0xaf][0xc8][0x9b]*+[0x8][0xd4]m[0xcf][0xa8]*[0x99][0xbc][0xcb]R{N[0xa3][0x85][0x12][0xb9]=E[0xc0][0xd6][0xbb][0x1d]4[0x17][0xac][0xcd][0x5]k>][0xf8]d&EF\[0xdb][0xf1][0xed][0x1])E[0xbd]rH[0xb8]&[0xff][0x9a][0xb2][0x82][0xe5]S[0x8a][0xf8]KxN6[0x80][0xfe]-[0xdc]*[0xaa]4[0xed];[0xa7][0xbe][0xbf][0x15][0xb]>h+[0x80]{[0xce][0xab],[0xf9][0xb4]][0x6][0x9b]k[0xd6][0x1c](Q[0xcb][0xe1][0xd9][0xee][0xa8][0x96][0x3][0xab]1V[0xc7][0xcb]1i[0xc9]A[0xb][0x1a]%[0xcc][0xce]([0xfc][0xd8].[0xd2][\n]"
+[DEBUG] 2025-02-09 01:30:00.420 [] wire -  << "p[0xa9][0x2][0xf3][0xcb]H1[0x15][0x91]U_[0xad][0xe5][0x19][0xda][0xce][0xc0]v[0xb4]^[0xb0]r[0xb0]:Z[0x9e][0x89][0xfb]uyT%[0xd9][0x8c]K[0x16]l[0x16]V[0xc9]T[0x99][0xc7][0x1b]YF[0x1b]QF[0xb6][0xdb][0x81]$[0xce][0xd7]%ikf+N[5[0x1d][0x8b]3[0xd0][0xe2][0xcc][0xf8][0x1d][0x81]GB[0x11]$[0x1][0x86][0x9][0xb9]&4[0x9f][0x92]R[0xc2][0x12][0x15][0x89][0x19][0xf0][0xc7][0x80][0x82]y[0xfd]K[0x91][0xd0][0x10][0x7][0xce][0xbe][0xdf]@[0xfd][0x81][0xe1]'[0xc2]Y[0xa5]"[0x84][0x16][0x12]R[0xc5]#[0xa2]S)R F[0xac][0x84][0x4]C[0xe3][0x1c]H[0xaa]T[0x7][0xfc][0xcc][0xc6][0xe3][0xdd][0x84]a7[0x93][0x8c][0x91]B[0xc8][0x92]L[0xd7][0x88][0x89]<[0xc2][0xd6][0x1d]p[0x19]j.[0xef][0xf8][0x1d][0x92][0xb]r[0x16]EL)r[0xfd][0xf1]W[0xf2][0xb6][0x82]23D[0x88]<g&)4[0xac][0xce][0xd6]4[0xa7]J[0x82]5M[0x9e][0xa3][0xc2][0xf1][0xd6][0x82]"$[0x93][0x91]X[0xf6][0x9b]s[0x93]y6N[0xad][0xfd]gt[0xb4][0xc1][0xfa][0x83]Q[0xcb]`[0xb])[0xe6]x[0x97]Td[0xa1]X[0x4][0xf5][0xa9]f[0x8]G[0xf5][0xed][0xa1][0xa7][0xd9][0xd6][0xcb]q[0x7][0xcc]O[0xf]y[0xb]L[0x3][0x11]$[0xb6]q[0xf6][0xe6][0x90][0x1]G[0xb][0xf0][0xb1][0x9][0xaa][0xae]W{[0xac]kcu[0xbc][0xcb][0xfa][0x8e][0xd9]][0x13][0xeb]uPm[0x82][0xd9]!!P.[0xbc][0xa8] [0x7][0xa3][0xd8]!AT:[0xf3][0xe6][0xae][0xc5][0xb3]"}1[0xad][0x1c][0xc]d[0x87][0x84][0x89][0x4][0xe2]J[0x3]x[0x9d][0xef][0x8d][0x89]'[0xdb][0xbd][0x99]+Q[0x15][0x81]9>0J[0x3]%[0xc6]&[0xbb][0xb0][0x6][0xaf][0xc5][0xf1][0xe9][0x10][0xab][0x81][0x15]r[0xc0]$O;[0x80]X[0xdf][0xd9][0xf9][0xe5][0x91][0x19][0x88]Q[0x8f][0xc9]E[0xba]P[0xcf].[0x3][0xd1]b![0xc4]J[0xa1][0xc4][0xac][0xb4][0xd5]'[0xa4][0xb7]r[0xc9]d[0x90])[0xac][0x91][0x6][0x85]Q[0xb3]G[0xae][0xed][0xa3][0xd2][0x9e]K[0xe6][0xd4];[0xe5][0xda][0x13]{P[0xff][0xb6][0x90][0x95][0xea][0xcc][0xf9][0xf8]P[0xe2][0xb6][0xed][0xf5][0xb0][0xa5][0xb8][0xbb][0xe8][0xd5][0x1][0xc7][0x9d]mraB[\n]"
+[DEBUG] 2025-02-09 01:30:00.420 [] wire -  << "^R[0xbb][0x86][0xd9][0xa0]>Y![0xd0]a[0xe3][0x19]x[0xe7]z#\[0xa4][0xf5][0xc7]swL[\n]"
+[DEBUG] 2025-02-09 01:30:00.420 [] wire -  << "[0xf6][0xe][0x9]<`[0xbd]O[0xa7][0xd3][\r][0xe4][0x1]h[\r][0xda]J[0x9a][0x11]U[0x15][0x6][\r]5,[0xfd]{-9pR][0xd1][0x98]=[0xb][0x97][0xda];[0x1f][0xb][0x11][0xa7][0xcc][0x8e][0xe4][0xba]([0x85]][0xf2]|[0x11][0xe8][0x83]EWj[0x91]5[0x18][0xf][0x9f]l[0x12]=[0xac][0x9c].[0xbc][0xc2][0xdd][0x81][0xe3][0x83]X[0xfd][0x1d][0x89][0xa7]N77[0x89]g[0x7][0xee][0xe0]>[0x19];[0xe][0x87]lc[0x90][0x6][0xc8][0x86][0xc7][0x9b][0x84][0xfb]L4[0xed]T[0x88]a;b?[0x82][0xa6]{[0xb8][0xd1][0xa9][0x14][0xee][0xc1][0x2][0xe5][0x10]z[0xfd][0x1d][0xd3][0xbb][0x15][0xa4]][0xb1]e"Z[0xf0]R[0x4][0xcd][0xd9][0xda][0xe9][0x0]y[0xbf][0xce]ftRg;][0x94]"[0xfe][0xb0][0x8d] _q[0xd8]-[0x8e]6%"[0x1c][0xa4][0x8b][0x12][0xd1]"
+[DEBUG] 2025-02-09 01:30:00.421 [] wire -  << "[0x1f][0xee]<C[0x3]E[0xc3]=[0xae]P[0xf][0x6][0xe6]X3[0x1e][0xe]m[0x14][0x81][0x16][0xc0][0xc1][0xb8][0xe5][0xd0][0xf6][0xec][0x81][0xf9]ulM[0xe8][0xf][0xdb][0xd9][0xd4][0xbc][0xca]y[0x19][0x98][0xe3].,C[0xd5][0xe]<[0xaf]V[0xba]c{[0x1d]p50t-[0xd2][0xa5][0xae][0x15][0xde][0xf0]sN[0xde]+U1[0xb2]B[0xbb][0x9e][0xbc][0xcf]#[0x11]C[0x2]A.[0x91][0xda][0x1b]ng[0xe1][0x94][0xa5]2[0xc9]hn][0xa4])nZ?[0xa3]f[0x18][0x9a][0xb0][0x88][0x2][0x85][0xfc][0x97][0xa6][0x1c][0xad][0x8][0xdd]:$9z[0xc][0xa8][0x80][0xa2]*[0xd5]][0x1e]M[0xf6][0xe2][0x8e]E[0x95])T[0xae][0xab],[0xa3][0xa8][0x3]C[0xb][0xe][0x0][0xf1][0xa6][0x8a][0x8d]4[0x97]4[0xc9]D5[0xbd]H[0xd1]=[0x97][0xb][0xba]z[0x8e]0[0xde]N[0xf1]y[0xc4][0xb][0xdd]+[0xde][0x8c]!Z[0x15][0xc],[\r][0x9b][0xdd] [0xb2][0xb6][0xbe][0xa3][0xb7][0xdc]k[0x7]@[0xf4]iL[0x8f][0xc6][0x8e][0xd0]^D=[0x16]4g[0xab][0xe9]ia[0x87][0xac][0xba]K[0xf1][0xb0][0x4][0x1f][0xd8]M&7[0xb0];I[0xe4][0xbc]6d[0xa1][0xe3]Y[0xc6][0x92]!E[\n]"
+[DEBUG] 2025-02-09 01:30:00.421 [] wire -  << "v[0xcb][0xda][0x17]<[0x17][0x1c]M[0x81]eV[0x1d][0x14]w^;[0xfa]4[0xc1][0xb8][0x10][0x1c][0xbc][0xb9]%[0x4]:Z5[0xeb][0x11][0xbc][0xd0]l[0xc5]H;`[0x7];[0xd1][0xae]*[0xdb][0x8c]_[0x88][0xa5]I[0xdc][0xb5][0xf]([0x91]1[0x82][0xd6]X[0x86]m'[0xcd][0xb4][0xc6]8CI[0x17][0xda]+[0xd1]]g,WI[0xdd][0x82][0x8b]0[0x1e]#b[0xb6][0xc9][0x98][0xb6][0xff][0xfb][0x8f][0xce][0xa0][0xd4][0xef][0x9][0xcb]o[0xc4][\r]][0xb0][0xb3][0xeb][0xed][0xbf]^[0x9f][0xa5]+[0xba]n[0xda][0x17]]xL;[0x8b]xz[0xcd][0xa1][\r]T[0x9b][0x8b][0xed]"[0xc3]>~[0xd7]F[0x7][0x13][0x88]b:[0xb][0xc5]]P[0x9f][0x9a][0xa8][0x8d][0xfc][0xdd][0x84]MXM[0x17]Qs[0xf4][0xb0][0xe7][0x81][0xaa]b[0xad][0xdd][0xc3][0x1c][0x81][0x90][0xa6][0xb9]"[0xa4]5[0xaf]y[0xeb][0xa6][0xb8]y[0xeb][0x89][0xed]va[0xaa][0xa3][0x9d][0xa9]"[0x8d][0xc7][0xc0][0xb][\r]Utu[0x97][0xd4][0x8a]R[0xae]-[0xc8]$[0xf0][0x93][0x8d][0x83]L[0xba]q[0x90][0xd1][0xae][0xcc][0x4][0xd7][0xa8][0x8a][0xaa],D[0xed][0xb4]YX[0x5][0x8f][0x84][0x9e][0x1][0xa2][0xbf][0xcf]d-[0xc2])[0x86][0x95]u[0xf6][0x8a]U'[0xd9][0xf4]x[0xa7][0xf6][0x83]B<l[0x94][0xbe][0x0][0xf7][0x96][0xe2][0xff][0xae][0x82]][0x3][0xfb][0x5]x[0x1b][0xf5];[0xfe][0xd0]'![0xa0][0xf];[0x1d]-JZ[0x10][0xd4]p[0x89][0x0]T[0xd6][0xe0][0x89]v[0xa5][0x9][0x18]@[0xce]ftB|[0xf]s[0x12][0xcf][0xc1]_[0x8d][0x97][0xc7]4K[0xc7][0xc6][0xed]%[0xcb][0x4]Z[0x97][0x99][0x8]y[0xca][0xfa]+[0x16][0x12][0xb6]Ei4n[0x99][\n]"
+[DEBUG] 2025-02-09 01:30:00.421 [] wire -  << ":[0xe0]d[0x1c][0xdb][0xf1]][0x97][0xcc][0xea][0x8a][0x11]l?U[0xe8][0x83][0xeb][0xe6][0xe5][0x8c][0xc7][0xba]5[0x8c]0[0x88][0xee][0xdf][0xdd][0x9a][0xcc][0x84][0xc4][0x8f]z[0xb4]@[0x90][0x98][0xa0]`[0x94][0x1d][0xc8]`[0xb0][0xe8][0xe1]H[0xab][0x3][0x9a]H[0xf3][0xff][0xcc]1[0xbb][0xb9]B[0xb][0xe1]-[0xdc]E[0xf2][0xb0]B[0xac]P[0x9a]U[0xbb][0x11][0x9b]Q$\[0x18][0xb]sx[0x13][0x97][0xf5][0x8b][0xd7][0xb7][0xeb]t[0xe8][0xbb]G1[0xfe][0xc0][0xf8][0xce][0xa1][0xf4][0xad]kN:[0xb9][0x3][0xaf]W[0xef]0[0x3]j[0xa6]S(d^[0xbd][\n]"
+[DEBUG] 2025-02-09 01:30:00.422 [] wire -  << "[0x9e]<=B[0x2][0x8e]~[0x0][0xeb][0xfb][0x88]][0x1b][0xf3][0xb5]mtaZ[0xdf]?`[0x18]X[0xd9][0xa0][0xbf]yx[0xf4][0x9b][0x82][0xef][0xfa][0xde][0x4][0xb9][0xdf][0x86].f[0x83][0xa2][0xa4])&[0x98]U[0x8e][0x91][0xa3]w[0xd2][0xfb][0xa7]cN[0x16]N[0x83][0x93]^J[0xab][0x18]SM[0xac][0x12]!$[0xc5]\[0xe]Km[0xa0][0x98][0xb0][0xe2][[0x7]}[0x9d]Q[0x89]'[0xb1][0x92][0xa8][0xa4]X[0xbd]dk[0xa6]p[\r][0xb3]U[0x8d][0xf8]fj[0xde]p[0x18][0xf9]?[0x98][0x16][0xc6][0xf9]:#[0x0][0x0]"
+[DEBUG] 2025-02-09 01:30:00.422 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-02-09 01:30:00.466 [main] DefaultClientConnectionOperator - Connecting to fake-json-api.mock.beeceptor.com:443
+[DEBUG] 2025-02-09 01:30:00.603 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4684a797
+[DEBUG] 2025-02-09 01:30:00.603 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2025-02-09 01:30:00.676 [] ReportManager - You're using the latest engine version "9.1.20250203". 👍
+[DEBUG] 2025-02-09 01:30:00.954 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-02-09 01:30:00.955 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-02-09 01:30:00.955 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-02-09 01:30:00.956 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-02-09 01:30:00.956 [main] DefaultClientConnection - Sending request: GET /companies HTTP/1.1
+[DEBUG] 2025-02-09 01:30:00.956 [main] wire -  >> "GET /companies HTTP/1.1[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.957 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.957 [main] wire -  >> "Host: fake-json-api.mock.beeceptor.com[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.957 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.957 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.957 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.957 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2025-02-09 01:30:00.957 [main] headers - >> GET /companies HTTP/1.1
+[DEBUG] 2025-02-09 01:30:00.957 [main] headers - >> Accept: */*
+[DEBUG] 2025-02-09 01:30:00.957 [main] headers - >> Host: fake-json-api.mock.beeceptor.com
+[DEBUG] 2025-02-09 01:30:00.958 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-02-09 01:30:00.958 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)
+[DEBUG] 2025-02-09 01:30:00.958 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-02-09 01:30:01.205 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-02-09 01:30:01.206 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-02-09 01:30:01.206 [main] wire -  << "Alt-Svc: h3=":443"; ma=2592000[\r][\n]"
+[DEBUG] 2025-02-09 01:30:01.206 [main] wire -  << "Content-Length: 3766[\r][\n]"
+[DEBUG] 2025-02-09 01:30:01.206 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2025-02-09 01:30:01.206 [main] wire -  << "Date: Sat, 08 Feb 2025 23:29:58 GMT[\r][\n]"
+[DEBUG] 2025-02-09 01:30:01.206 [main] wire -  << "Vary: Accept-Encoding[\r][\n]"
+[DEBUG] 2025-02-09 01:30:01.206 [main] wire -  << "X-Beeceptor-Rule-Id: q4eue1qhx[\r][\n]"
+[DEBUG] 2025-02-09 01:30:01.206 [main] wire -  << "[\r][\n]"
+[DEBUG] 2025-02-09 01:30:01.206 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-02-09 01:30:01.207 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-02-09 01:30:01.207 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-02-09 01:30:01.207 [main] headers - << Alt-Svc: h3=":443"; ma=2592000
+[DEBUG] 2025-02-09 01:30:01.207 [main] headers - << Content-Length: 3766
+[DEBUG] 2025-02-09 01:30:01.207 [main] headers - << Content-Type: application/json
+[DEBUG] 2025-02-09 01:30:01.207 [main] headers - << Date: Sat, 08 Feb 2025 23:29:58 GMT
+[DEBUG] 2025-02-09 01:30:01.207 [main] headers - << Vary: Accept-Encoding
+[DEBUG] 2025-02-09 01:30:01.207 [main] headers - << X-Beeceptor-Rule-Id: q4eue1qhx
+[DEBUG] 2025-02-09 01:30:01.207 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2025-02-09 01:30:01.208 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-02-09 01:30:01.229 [main] wire -  << "[[\n]"
+[DEBUG] 2025-02-09 01:30:01.230 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:01.230 [main] wire -  << "    "id": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:01.230 [main] wire -  << "    "name": "Crist - Simonis",[\n]"
+[DEBUG] 2025-02-09 01:30:01.230 [main] wire -  << "    "address": "5161 Angeline Wall",[\n]"
+[DEBUG] 2025-02-09 01:30:01.230 [main] wire -  << "    "zip": "41381",[\n]"
+[DEBUG] 2025-02-09 01:30:01.230 [main] wire -  << "    "country": "Poland",[\n]"
+[DEBUG] 2025-02-09 01:30:01.230 [main] wire -  << "    "employeeCount": 42,[\n]"
+[DEBUG] 2025-02-09 01:30:01.230 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2025-02-09 01:30:01.230 [main] wire -  << "    "marketCap": 7655897812,[\n]"
+[DEBUG] 2025-02-09 01:30:01.230 [main] wire -  << "    "domain": "afraid-platform.org",[\n]"
+[DEBUG] 2025-02-09 01:30:01.231 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2025-02-09 01:30:01.231 [main] wire -  << "    "ceoName": "Elenor Bergstrom"[\n]"
+[DEBUG] 2025-02-09 01:30:01.231 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:01.231 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:01.231 [main] wire -  << "    "id": 2,[\n]"
+[DEBUG] 2025-02-09 01:30:01.231 [main] wire -  << "    "name": "Paucek, Klein and Barrows",[\n]"
+[DEBUG] 2025-02-09 01:30:01.231 [main] wire -  << "    "address": "9121 Sycamore Close",[\n]"
+[DEBUG] 2025-02-09 01:30:01.231 [main] wire -  << "    "zip": "71081",[\n]"
+[DEBUG] 2025-02-09 01:30:01.231 [main] wire -  << "    "country": "Panama",[\n]"
+[DEBUG] 2025-02-09 01:30:01.231 [main] wire -  << "    "employeeCount": 8790,[\n]"
+[DEBUG] 2025-02-09 01:30:01.231 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2025-02-09 01:30:01.231 [main] wire -  << "    "marketCap": 3606590608,[\n]"
+[DEBUG] 2025-02-09 01:30:01.231 [main] wire -  << "    "domain": "ill-informed-clam.name",[\n]"
+[DEBUG] 2025-02-09 01:30:01.232 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2025-02-09 01:30:01.232 [main] wire -  << "    "ceoName": "Lulu Bednar"[\n]"
+[DEBUG] 2025-02-09 01:30:01.232 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:01.232 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:01.232 [main] wire -  << "    "id": 3,[\n]"
+[DEBUG] 2025-02-09 01:30:01.232 [main] wire -  << "    "name": "Lakin - Moen",[\n]"
+[DEBUG] 2025-02-09 01:30:01.232 [main] wire -  << "    "address": "20329 Carol Shoals",[\n]"
+[DEBUG] 2025-02-09 01:30:01.232 [main] wire -  << "    "zip": "76434",[\n]"
+[DEBUG] 2025-02-09 01:30:01.232 [main] wire -  << "    "country": "Turkmenistan",[\n]"
+[DEBUG] 2025-02-09 01:30:01.232 [main] wire -  << "    "employeeCount": 7726,[\n]"
+[DEBUG] 2025-02-09 01:30:01.232 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2025-02-09 01:30:01.233 [main] wire -  << "    "marketCap": 706625136,[\n]"
+[DEBUG] 2025-02-09 01:30:01.233 [main] wire -  << "    "domain": "usable-spot.net",[\n]"
+[DEBUG] 2025-02-09 01:30:01.233 [main] wire -  << "    "logo": "https://ex"
+[DEBUG] 2025-02-09 01:30:01.234 [main] wire -  << "ample.com/logo1.png",[\n]"
+[DEBUG] 2025-02-09 01:30:01.234 [main] wire -  << "    "ceoName": "Ciara Rice"[\n]"
+[DEBUG] 2025-02-09 01:30:01.234 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:01.234 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:01.234 [main] wire -  << "    "id": 4,[\n]"
+[DEBUG] 2025-02-09 01:30:01.234 [main] wire -  << "    "name": "Senger - Yost",[\n]"
+[DEBUG] 2025-02-09 01:30:01.238 [main] wire -  << "    "address": "790 Chestnut Close",[\n]"
+[DEBUG] 2025-02-09 01:30:01.238 [main] wire -  << "    "zip": "79633-8008",[\n]"
+[DEBUG] 2025-02-09 01:30:01.238 [main] wire -  << "    "country": "Heard Island and McDonald Islands",[\n]"
+[DEBUG] 2025-02-09 01:30:01.238 [main] wire -  << "    "employeeCount": 6962,[\n]"
+[DEBUG] 2025-02-09 01:30:01.239 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2025-02-09 01:30:01.239 [main] wire -  << "    "marketCap": 7335979865,[\n]"
+[DEBUG] 2025-02-09 01:30:01.239 [main] wire -  << "    "domain": "united-medium.info",[\n]"
+[DEBUG] 2025-02-09 01:30:01.239 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2025-02-09 01:30:01.239 [main] wire -  << "    "ceoName": "Rosa Donnelly"[\n]"
+[DEBUG] 2025-02-09 01:30:01.239 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:01.239 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:01.239 [main] wire -  << "    "id": 4,[\n]"
+[DEBUG] 2025-02-09 01:30:01.239 [main] wire -  << "    "name": "Wiegand - Volkman",[\n]"
+[DEBUG] 2025-02-09 01:30:01.239 [main] wire -  << "    "address": "2605 Lenore Hollow",[\n]"
+[DEBUG] 2025-02-09 01:30:01.239 [main] wire -  << "    "zip": "62682",[\n]"
+[DEBUG] 2025-02-09 01:30:01.240 [main] wire -  << "    "country": "Portugal",[\n]"
+[DEBUG] 2025-02-09 01:30:01.240 [main] wire -  << "    "employeeCount": 6039,[\n]"
+[DEBUG] 2025-02-09 01:30:01.240 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2025-02-09 01:30:01.240 [main] wire -  << "    "marketCap": 2880651397,[\n]"
+[DEBUG] 2025-02-09 01:30:01.240 [main] wire -  << "    "domain": "common-spyglass.name",[\n]"
+[DEBUG] 2025-02-09 01:30:01.240 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2025-02-09 01:30:01.240 [main] wire -  << "    "ceoName": "Macie Leannon"[\n]"
+[DEBUG] 2025-02-09 01:30:01.240 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:01.240 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:01.240 [main] wire -  << "    "id": 5,[\n]"
+[DEBUG] 2025-02-09 01:30:01.240 [main] wire -  << "    "name": "Larson, Borer and Hoppe",[\n]"
+[DEBUG] 2025-02-09 01:30:01.240 [main] wire -  << "    "address": "1562 Aufderhar Heights",[\n]"
+[DEBUG] 2025-02-09 01:30:01.240 [main] wire -  << "    "zip": "57900-9673",[\n]"
+[DEBUG] 2025-02-09 01:30:01.240 [main] wire -  << "    "country": "Niue",[\n]"
+[DEBUG] 2025-02-09 01:30:01.241 [main] wire -  << "    "employeeCount": 1298,[\n]"
+[DEBUG] 2025-02-09 01:30:01.241 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2025-02-09 01:30:01.241 [main] wire -  << "    "marketCap": 5140508736,[\n]"
+[DEBUG] 2025-02-09 01:30:01.241 [main] wire -  << "    "domain": "tattered-alteration.org",[\n]"
+[DEBUG] 2025-02-09 01:30:01.241 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2025-02-09 01:30:01.241 [main] wire -  << "    "ceoName": "Fredy Moore"[\n]"
+[DEBUG] 2025-02-09 01:30:01.241 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:01.241 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:01.241 [main] wire -  << "    "id": 6,[\n]"
+[DEBUG] 2025-02-09 01:30:01.242 [main] wire -  << "    "name": "Bartell, Miller and Crooks",[\n]"
+[DEBUG] 2025-02-09 01:30:01.242 [main] wire -  << "    "address": "5003 N Oak Street",[\n]"
+[DEBUG] 2025-02-09 01:30:01.242 [main] wire -  << "    "zip": "62069",[\n]"
+[DEBUG] 2025-02-09 01:30:01.242 [main] wire -  << "    "country": "Qatar",[\n]"
+[DEBUG] 2025-02-09 01:30:01.242 [main] wire -  << "    "employeeCount": 374,[\n]"
+[DEBUG] 2025-02-09 01:30:01.242 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2025-02-09 01:30:01.242 [main] wire -  << "    "marketCap": 658998086,[\n]"
+[DEBUG] 2025-02-09 01:30:01.242 [main] wire -  << "    "domain": "fancy-disability.com",[\n]"
+[DEBUG] 2025-02-09 01:30:01.242 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2025-02-09 01:30:01.242 [main] wire -  << "    "ceoName": "Isai Konopelski"[\n]"
+[DEBUG] 2025-02-09 01:30:01.242 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:01.242 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:01.242 [main] wire -  << "    "id": 7,[\n]"
+[DEBUG] 2025-02-09 01:30:01.242 [main] wire -  << "    "name": "Rempel and Sons",[\n]"
+[DEBUG] 2025-02-09 01:30:01.243 [main] wire -  << "    "address": "656 Ahmad Parkway",[\n]"
+[DEBUG] 2025-02-09 01:30:01.243 [main] wire -  << "    "zip": "65206",[\n]"
+[DEBUG] 2025-02-09 01:30:01.243 [main] wire -  << "    "country": "Latvia",[\n]"
+[DEBUG] 2025-02-09 01:30:01.243 [main] wire -  << "    "employeeCount": 8527,[\n]"
+[DEBUG] 2025-02-09 01:30:01.243 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2025-02-09 01:30:01.243 [main] wire -  << "    "marketCap": 2082687562,[\n]"
+[DEBUG] 2025-02-09 01:30:01.243 [main] wire -  << "    "domain": "trained-vise.org",[\n]"
+[DEBUG] 2025-02-09 01:30:01.243 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2025-02-09 01:30:01.243 [main] wire -  << "    "ceoName": "Oliver Fisher"[\n]"
+[DEBUG] 2025-02-09 01:30:01.244 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:01.244 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:01.244 [main] wire -  << "    "id": 8,[\n]"
+[DEBUG] 2025-02-09 01:30:01.244 [main] wire -  << "    "name": "Braun Group",[\n]"
+[DEBUG] 2025-02-09 01:30:01.244 [main] wire -  << "    "address": "26929 Collins Loop",[\n]"
+[DEBUG] 2025-02-09 01:30:01.244 [main] wire -  << "    "zip": "80700",[\n]"
+[DEBUG] 2025-02-09 01:30:01.244 [main] wire -  << "    "country": "Venezuela",[\n]"
+[DEBUG] 2025-02-09 01:30:01.244 [main] wire -  << "    "employeeCount": 9416,[\n]"
+[DEBUG] 2025-02-09 01:30:01.244 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2025-02-09 01:30:01.244 [main] wire -  << "    "marketCap": 6666051581,[\n]"
+[DEBUG] 2025-02-09 01:30:01.244 [main] wire -  << "    "domain": "terrible-corral.org",[\n]"
+[DEBUG] 2025-02-09 01:30:01.245 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2025-02-09 01:30:01.245 [main] wire -  << "    "ceoName": "Odessa Kihn"[\n]"
+[DEBUG] 2025-02-09 01:30:01.245 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:01.245 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:01.245 [main] wire -  << "    "id": 9,[\n]"
+[DEBUG] 2025-02-09 01:30:01.245 [main] wire -  << "    "name": "Hauck and Sons",[\n]"
+[DEBUG] 2025-02-09 01:30:01.245 [main] wire -  << "    "address": "80187 Clifford Stream",[\n]"
+[DEBUG] 2025-02-09 01:30:01.245 [main] wire -  << "    "zip": "35189-1959",[\n]"
+[DEBUG] 2025-02-09 01:30:01.245 [main] wire -  << "    "country": "South Africa",[\n]"
+[DEBUG] 2025-02-09 01:30:01.245 [main] wire -  << "    "employeeCount": 7864,[\n]"
+[DEBUG] 2025-02-09 01:30:01.245 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2025-02-09 01:30:01.245 [main] wire -  << "    "marketCap": 1890108427,[\n]"
+[DEBUG] 2025-02-09 01:30:01.245 [main] wire -  << "    "domain": "abandoned-encir"
+[DEBUG] 2025-02-09 01:30:01.246 [main] wire -  << "clement.info",[\n]"
+[DEBUG] 2025-02-09 01:30:01.246 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2025-02-09 01:30:01.246 [main] wire -  << "    "ceoName": "Garret Kuphal"[\n]"
+[DEBUG] 2025-02-09 01:30:01.246 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:01.246 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:01.247 [main] wire -  << "    "id": 10,[\n]"
+[DEBUG] 2025-02-09 01:30:01.247 [main] wire -  << "    "name": "Towne - Effertz",[\n]"
+[DEBUG] 2025-02-09 01:30:01.247 [main] wire -  << "    "address": "397 D&#x27;Amore Points",[\n]"
+[DEBUG] 2025-02-09 01:30:01.247 [main] wire -  << "    "zip": "54779",[\n]"
+[DEBUG] 2025-02-09 01:30:01.247 [main] wire -  << "    "country": "Argentina",[\n]"
+[DEBUG] 2025-02-09 01:30:01.247 [main] wire -  << "    "employeeCount": 7275,[\n]"
+[DEBUG] 2025-02-09 01:30:01.247 [main] wire -  << "    "industry": "Technology",[\n]"
+[DEBUG] 2025-02-09 01:30:01.247 [main] wire -  << "    "marketCap": 964125247,[\n]"
+[DEBUG] 2025-02-09 01:30:01.247 [main] wire -  << "    "domain": "authentic-exam.info",[\n]"
+[DEBUG] 2025-02-09 01:30:01.248 [main] wire -  << "    "logo": "https://example.com/logo1.png",[\n]"
+[DEBUG] 2025-02-09 01:30:01.248 [main] wire -  << "    "ceoName": "Lorenz Boehm"[\n]"
+[DEBUG] 2025-02-09 01:30:01.248 [main] wire -  << "  }[\n]"
+[DEBUG] 2025-02-09 01:30:01.248 [main] wire -  << "]"
+[DEBUG] 2025-02-09 01:30:01.248 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@63614cdd
+[DEBUG] 2025-02-09 01:30:01.248 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2025-02-09 01:30:01.339 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2025-02-09 01:30:01.340 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2025-02-09 01:30:01.340 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Yehia.Metwally/.m2/repository/io/qameta/allure/allure-attachments/2.29.1/allure-attachments-2.29.1.jar!/tpl/http-response.ftl"
+[INFO ] 2025-02-09 01:30:01.369 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2025-02-09 01:30:01.449 [main] ReportManager - Handle response; GET | Target Status Code: 200 | Response Time: 839ms.
+[INFO ] 2025-02-09 01:30:02.410 [main] ReportManager - Assert that "11" is equal to "11".
+[DEBUG] 2025-02-09 01:30:02.468 [main] ReportManager - Expected "11", and actual "11"
+[INFO ] 2025-02-09 01:30:02.503 [main] ReportManager - Expected "11", and actual "11"
+[INFO ] 2025-02-09 01:30:02.514 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:02.581 [main] ReportManager - Assert that "1" is equal to "1".
+[DEBUG] 2025-02-09 01:30:02.593 [main] ReportManager - Expected "1", and actual "1"
+[INFO ] 2025-02-09 01:30:02.594 [main] ReportManager - Expected "1", and actual "1"
+[INFO ] 2025-02-09 01:30:02.595 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:02.626 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: getAllCompaniesDetails'
+[INFO ] 2025-02-09 01:30:02.629 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                              Finished Execution of Test Method: 'testCases.GetAllCompanies.getAllCompaniesDetails'                              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:30:03.076 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 7' test cases in the current suite                                        
+                                       Test Method: 'testCases.GetPostDetails.verifyCommentsCountForPost'                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:30:03.080 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/GetPostsTestData.json".
+[INFO ] 2025-02-09 01:30:03.084 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2025-02-09 01:30:03.158 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2025-02-09 01:30:03.159 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2025-02-09 01:30:03.159 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Yehia.Metwally/.m2/repository/io/qameta/allure/allure-attachments/2.29.1/allure-attachments-2.29.1.jar!/tpl/http-request.ftl"
+[DEBUG] 2025-02-09 01:30:03.181 [main] BasicClientConnectionManager - Get connection for route {s}->https://dummy-json.mock.beeceptor.com:443
+[DEBUG] 2025-02-09 01:30:03.187 [main] DefaultClientConnectionOperator - Connecting to dummy-json.mock.beeceptor.com:443
+[DEBUG] 2025-02-09 01:30:03.657 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-02-09 01:30:03.657 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-02-09 01:30:03.657 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-02-09 01:30:03.657 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-02-09 01:30:03.658 [main] DefaultClientConnection - Sending request: GET /posts HTTP/1.1
+[DEBUG] 2025-02-09 01:30:03.658 [main] wire -  >> "GET /posts HTTP/1.1[\r][\n]"
+[DEBUG] 2025-02-09 01:30:03.658 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-02-09 01:30:03.658 [main] wire -  >> "Host: dummy-json.mock.beeceptor.com[\r][\n]"
+[DEBUG] 2025-02-09 01:30:03.658 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-02-09 01:30:03.658 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)[\r][\n]"
+[DEBUG] 2025-02-09 01:30:03.659 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-02-09 01:30:03.659 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2025-02-09 01:30:03.659 [main] headers - >> GET /posts HTTP/1.1
+[DEBUG] 2025-02-09 01:30:03.659 [main] headers - >> Accept: */*
+[DEBUG] 2025-02-09 01:30:03.659 [main] headers - >> Host: dummy-json.mock.beeceptor.com
+[DEBUG] 2025-02-09 01:30:03.659 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-02-09 01:30:03.659 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)
+[DEBUG] 2025-02-09 01:30:03.659 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-02-09 01:30:03.884 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-02-09 01:30:03.884 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-02-09 01:30:03.885 [main] wire -  << "Alt-Svc: h3=":443"; ma=2592000[\r][\n]"
+[DEBUG] 2025-02-09 01:30:03.885 [main] wire -  << "Content-Length: 2489[\r][\n]"
+[DEBUG] 2025-02-09 01:30:03.885 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2025-02-09 01:30:03.885 [main] wire -  << "Date: Sat, 08 Feb 2025 23:30:01 GMT[\r][\n]"
+[DEBUG] 2025-02-09 01:30:03.885 [main] wire -  << "Vary: Accept-Encoding[\r][\n]"
+[DEBUG] 2025-02-09 01:30:03.885 [main] wire -  << "X-Beeceptor-Rule-Id: 6olf781wqk8[\r][\n]"
+[DEBUG] 2025-02-09 01:30:03.885 [main] wire -  << "[\r][\n]"
+[DEBUG] 2025-02-09 01:30:03.885 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-02-09 01:30:03.885 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-02-09 01:30:03.885 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-02-09 01:30:03.885 [main] headers - << Alt-Svc: h3=":443"; ma=2592000
+[DEBUG] 2025-02-09 01:30:03.885 [main] headers - << Content-Length: 2489
+[DEBUG] 2025-02-09 01:30:03.886 [main] headers - << Content-Type: application/json
+[DEBUG] 2025-02-09 01:30:03.886 [main] headers - << Date: Sat, 08 Feb 2025 23:30:01 GMT
+[DEBUG] 2025-02-09 01:30:03.886 [main] headers - << Vary: Accept-Encoding
+[DEBUG] 2025-02-09 01:30:03.886 [main] headers - << X-Beeceptor-Rule-Id: 6olf781wqk8
+[DEBUG] 2025-02-09 01:30:03.886 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2025-02-09 01:30:03.886 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-02-09 01:30:03.887 [main] wire -  << "[[\n]"
+[DEBUG] 2025-02-09 01:30:03.888 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:03.888 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:03.888 [main] wire -  << "    "id": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:03.888 [main] wire -  << "    "title": "Introduction to Artificial Intelligence",[\n]"
+[DEBUG] 2025-02-09 01:30:03.888 [main] wire -  << "    "body": "Learn the basics of Artificial Intelligence and its applications in various industries.",[\n]"
+[DEBUG] 2025-02-09 01:30:03.888 [main] wire -  << "    "link": "https://example.com/article1",[\n]"
+[DEBUG] 2025-02-09 01:30:03.888 [main] wire -  << "    "comment_count": 8[\n]"
+[DEBUG] 2025-02-09 01:30:03.888 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:03.888 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:03.888 [main] wire -  << "    "userId": 2,[\n]"
+[DEBUG] 2025-02-09 01:30:03.889 [main] wire -  << "    "id": 2,[\n]"
+[DEBUG] 2025-02-09 01:30:03.889 [main] wire -  << "    "title": "Web Development with React",[\n]"
+[DEBUG] 2025-02-09 01:30:03.889 [main] wire -  << "    "body": "Build modern web applications using React.js and explore its powerful features.",[\n]"
+[DEBUG] 2025-02-09 01:30:03.889 [main] wire -  << "    "link": "https://example.com/article2",[\n]"
+[DEBUG] 2025-02-09 01:30:03.889 [main] wire -  << "    "comment_count": 12[\n]"
+[DEBUG] 2025-02-09 01:30:03.889 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:03.889 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:03.889 [main] wire -  << "    "userId": 3,[\n]"
+[DEBUG] 2025-02-09 01:30:03.889 [main] wire -  << "    "id": 3,[\n]"
+[DEBUG] 2025-02-09 01:30:03.889 [main] wire -  << "    "title": "Data Science Fundamentals",[\n]"
+[DEBUG] 2025-02-09 01:30:03.890 [main] wire -  << "    "body": "Dive into the world of Data Science and discover how to analyze and interpret data.",[\n]"
+[DEBUG] 2025-02-09 01:30:03.890 [main] wire -  << "    "link": "https://example.com/article3",[\n]"
+[DEBUG] 2025-02-09 01:30:03.890 [main] wire -  << "    "comment_count": 5[\n]"
+[DEBUG] 2025-02-09 01:30:03.890 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:03.890 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:03.890 [main] wire -  << "    "userId": 4,[\n]"
+[DEBUG] 2025-02-09 01:30:03.890 [main] wire -  << "    "id": 4,[\n]"
+[DEBUG] 2025-02-09 01:30:03.890 [main] wire -  << "    "title": "Machine Learning Algorithms",[\n]"
+[DEBUG] 2025-02-09 01:30:03.890 [main] wire -  << "    "body": "Explore various Machine Learning algorithms and understand their workings.",[\n]"
+[DEBUG] 2025-02-09 01:30:03.890 [main] wire -  << "    "link": "https://example"
+[DEBUG] 2025-02-09 01:30:03.891 [main] wire -  << ".com/article4",[\n]"
+[DEBUG] 2025-02-09 01:30:03.891 [main] wire -  << "    "comment_count": 17[\n]"
+[DEBUG] 2025-02-09 01:30:03.891 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:03.891 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:03.891 [main] wire -  << "    "userId": 5,[\n]"
+[DEBUG] 2025-02-09 01:30:03.891 [main] wire -  << "    "id": 5,[\n]"
+[DEBUG] 2025-02-09 01:30:03.892 [main] wire -  << "    "title": "Introduction to Blockchain",[\n]"
+[DEBUG] 2025-02-09 01:30:03.892 [main] wire -  << "    "body": "Learn about Blockchain technology, its use-cases, and how it ensures secure transactions.",[\n]"
+[DEBUG] 2025-02-09 01:30:03.892 [main] wire -  << "    "link": "https://example.com/article5",[\n]"
+[DEBUG] 2025-02-09 01:30:03.892 [main] wire -  << "    "comment_count": 3[\n]"
+[DEBUG] 2025-02-09 01:30:03.892 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:03.892 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:03.892 [main] wire -  << "    "userId": 6,[\n]"
+[DEBUG] 2025-02-09 01:30:03.892 [main] wire -  << "    "id": 6,[\n]"
+[DEBUG] 2025-02-09 01:30:03.892 [main] wire -  << "    "title": "iOS App Development",[\n]"
+[DEBUG] 2025-02-09 01:30:03.892 [main] wire -  << "    "body": "Get started with iOS app development using Swift and create feature-rich applications.",[\n]"
+[DEBUG] 2025-02-09 01:30:03.892 [main] wire -  << "    "link": "https://example.com/article6",[\n]"
+[DEBUG] 2025-02-09 01:30:03.893 [main] wire -  << "    "comment_count": 10[\n]"
+[DEBUG] 2025-02-09 01:30:03.893 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:03.893 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:03.893 [main] wire -  << "    "userId": 7,[\n]"
+[DEBUG] 2025-02-09 01:30:03.893 [main] wire -  << "    "id": 7,[\n]"
+[DEBUG] 2025-02-09 01:30:03.893 [main] wire -  << "    "title": "Python for Data Analysis",[\n]"
+[DEBUG] 2025-02-09 01:30:03.893 [main] wire -  << "    "body": "Utilize Python libraries like Pandas and NumPy for data manipulation and analysis.",[\n]"
+[DEBUG] 2025-02-09 01:30:03.893 [main] wire -  << "    "link": "https://example.com/article7",[\n]"
+[DEBUG] 2025-02-09 01:30:03.893 [main] wire -  << "    "comment_count": 15[\n]"
+[DEBUG] 2025-02-09 01:30:03.893 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:03.893 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:03.893 [main] wire -  << "    "userId": 8,[\n]"
+[DEBUG] 2025-02-09 01:30:03.893 [main] wire -  << "    "id": 8,[\n]"
+[DEBUG] 2025-02-09 01:30:03.893 [main] wire -  << "    "title": "Cybersecurity Best Practices",[\n]"
+[DEBUG] 2025-02-09 01:30:03.893 [main] wire -  << "    "body": "Learn essential cybersecurity practices to safeguard your digital assets.",[\n]"
+[DEBUG] 2025-02-09 01:30:03.894 [main] wire -  << "    "link": "https://example.com/article8",[\n]"
+[DEBUG] 2025-02-09 01:30:03.894 [main] wire -  << "    "comment_count": 6[\n]"
+[DEBUG] 2025-02-09 01:30:03.894 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:03.894 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:03.894 [main] wire -  << "    "userId": 9,[\n]"
+[DEBUG] 2025-02-09 01:30:03.894 [main] wire -  << "    "id": 9,[\n]"
+[DEBUG] 2025-02-09 01:30:03.894 [main] wire -  << "    "title": "Cloud Computing Essentials",[\n]"
+[DEBUG] 2025-02-09 01:30:03.895 [main] wire -  << "    "body": "Understand the fundamentals of Cloud Computing and its benefits for businesses.",[\n]"
+[DEBUG] 2025-02-09 01:30:03.895 [main] wire -  << "    "link": "https://example.com/article9",[\n]"
+[DEBUG] 2025-02-09 01:30:03.895 [main] wire -  << "    "comment_count": 9[\n]"
+[DEBUG] 2025-02-09 01:30:03.895 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:03.895 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:03.895 [main] wire -  << "    "userId": 10,[\n]"
+[DEBUG] 2025-02-09 01:30:03.895 [main] wire -  << "    "id": 10,[\n]"
+[DEBUG] 2025-02-09 01:30:03.895 [main] wire -  << "    "title": "Introduction to UX Design",[\n]"
+[DEBUG] 2025-02-09 01:30:03.895 [main] wire -  << "    "body": "Discover the principles of User Experience (UX) design and create intuitive user interfaces.",[\n]"
+[DEBUG] 2025-02-09 01:30:03.895 [main] wire -  << "    "link": "https://example.com/article10",[\n]"
+[DEBUG] 2025-02-09 01:30:03.895 [main] wire -  << "    "comment_count": 21[\n]"
+[DEBUG] 2025-02-09 01:30:03.895 [main] wire -  << "  }[\n]"
+[DEBUG] 2025-02-09 01:30:03.896 [main] wire -  << "]"
+[DEBUG] 2025-02-09 01:30:03.896 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7d8c264
+[DEBUG] 2025-02-09 01:30:03.896 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2025-02-09 01:30:03.899 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2025-02-09 01:30:03.901 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2025-02-09 01:30:03.901 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Yehia.Metwally/.m2/repository/io/qameta/allure/allure-attachments/2.29.1/allure-attachments-2.29.1.jar!/tpl/http-response.ftl"
+[INFO ] 2025-02-09 01:30:03.910 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2025-02-09 01:30:03.952 [main] ReportManager - Handle response; GET | Target Status Code: 200 | Response Time: 716ms.
+[DEBUG] 2025-02-09 01:30:04.207 [main] CompiledPath - Evaluating path: $[*]
+[INFO ] 2025-02-09 01:30:04.218 [main] ReportManager - Get response jsonvalue as list; $[*].
+[INFO ] 2025-02-09 01:30:04.221 [main] ReportManager - Assert that "10" is equal to "10".
+[DEBUG] 2025-02-09 01:30:04.225 [main] ReportManager - Expected "10", and actual "10"
+[INFO ] 2025-02-09 01:30:04.226 [main] ReportManager - Expected "10", and actual "10"
+[INFO ] 2025-02-09 01:30:04.226 [main] ReportManager - Assertion passed
+[DEBUG] 2025-02-09 01:30:04.353 [main] CompiledPath - Evaluating path: $[?]['comment_count']
+[DEBUG] 2025-02-09 01:30:04.355 [main] CompiledPath - Evaluating path: @['link']
+[DEBUG] 2025-02-09 01:30:04.381 [main] CompiledPath - Evaluating path: @['link']
+[DEBUG] 2025-02-09 01:30:04.382 [main] CompiledPath - Evaluating path: @['link']
+[DEBUG] 2025-02-09 01:30:04.382 [main] CompiledPath - Evaluating path: @['link']
+[DEBUG] 2025-02-09 01:30:04.382 [main] CompiledPath - Evaluating path: @['link']
+[DEBUG] 2025-02-09 01:30:04.382 [main] CompiledPath - Evaluating path: @['link']
+[DEBUG] 2025-02-09 01:30:04.382 [main] CompiledPath - Evaluating path: @['link']
+[DEBUG] 2025-02-09 01:30:04.383 [main] CompiledPath - Evaluating path: @['link']
+[DEBUG] 2025-02-09 01:30:04.383 [main] CompiledPath - Evaluating path: @['link']
+[DEBUG] 2025-02-09 01:30:04.383 [main] CompiledPath - Evaluating path: @['link']
+[INFO ] 2025-02-09 01:30:04.384 [main] ReportManager - Get response jsonvalue; $[?(@.link=='https://example.com/article3')].comment_count.
+[INFO ] 2025-02-09 01:30:04.388 [main] ReportManager - Assert that "5" is equal to "5".
+[DEBUG] 2025-02-09 01:30:04.390 [main] ReportManager - Expected "5", and actual "5"
+[INFO ] 2025-02-09 01:30:04.391 [main] ReportManager - Expected "5", and actual "5"
+[INFO ] 2025-02-09 01:30:04.392 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:04.398 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyCommentsCountForPost'
+[INFO ] 2025-02-09 01:30:04.398 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                            Finished Execution of Test Method: 'testCases.GetPostDetails.verifyCommentsCountForPost'                            
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:30:04.418 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 7' test cases in the current suite                                        
+                                          Test Method: 'testCases.GetPostDetails.verifyPostBodyByTitle'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:30:04.430 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/GetPostsTestData.json".
+[INFO ] 2025-02-09 01:30:04.432 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2025-02-09 01:30:04.522 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2025-02-09 01:30:04.525 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2025-02-09 01:30:04.526 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Yehia.Metwally/.m2/repository/io/qameta/allure/allure-attachments/2.29.1/allure-attachments-2.29.1.jar!/tpl/http-request.ftl"
+[DEBUG] 2025-02-09 01:30:04.544 [main] BasicClientConnectionManager - Get connection for route {s}->https://dummy-json.mock.beeceptor.com:443
+[DEBUG] 2025-02-09 01:30:04.545 [main] DefaultClientConnectionOperator - Connecting to dummy-json.mock.beeceptor.com:443
+[DEBUG] 2025-02-09 01:30:05.105 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-02-09 01:30:05.105 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-02-09 01:30:05.105 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-02-09 01:30:05.105 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-02-09 01:30:05.105 [main] DefaultClientConnection - Sending request: GET /posts HTTP/1.1
+[DEBUG] 2025-02-09 01:30:05.106 [main] wire -  >> "GET /posts HTTP/1.1[\r][\n]"
+[DEBUG] 2025-02-09 01:30:05.106 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-02-09 01:30:05.106 [main] wire -  >> "Host: dummy-json.mock.beeceptor.com[\r][\n]"
+[DEBUG] 2025-02-09 01:30:05.106 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-02-09 01:30:05.106 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)[\r][\n]"
+[DEBUG] 2025-02-09 01:30:05.106 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-02-09 01:30:05.106 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2025-02-09 01:30:05.106 [main] headers - >> GET /posts HTTP/1.1
+[DEBUG] 2025-02-09 01:30:05.106 [main] headers - >> Accept: */*
+[DEBUG] 2025-02-09 01:30:05.106 [main] headers - >> Host: dummy-json.mock.beeceptor.com
+[DEBUG] 2025-02-09 01:30:05.106 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-02-09 01:30:05.106 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)
+[DEBUG] 2025-02-09 01:30:05.106 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-02-09 01:30:05.333 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-02-09 01:30:05.334 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-02-09 01:30:05.334 [main] wire -  << "Alt-Svc: h3=":443"; ma=2592000[\r][\n]"
+[DEBUG] 2025-02-09 01:30:05.334 [main] wire -  << "Content-Length: 2489[\r][\n]"
+[DEBUG] 2025-02-09 01:30:05.334 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2025-02-09 01:30:05.334 [main] wire -  << "Date: Sat, 08 Feb 2025 23:30:03 GMT[\r][\n]"
+[DEBUG] 2025-02-09 01:30:05.334 [main] wire -  << "Vary: Accept-Encoding[\r][\n]"
+[DEBUG] 2025-02-09 01:30:05.334 [main] wire -  << "X-Beeceptor-Rule-Id: 6olf781wqk8[\r][\n]"
+[DEBUG] 2025-02-09 01:30:05.334 [main] wire -  << "[\r][\n]"
+[DEBUG] 2025-02-09 01:30:05.334 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-02-09 01:30:05.334 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-02-09 01:30:05.334 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-02-09 01:30:05.334 [main] headers - << Alt-Svc: h3=":443"; ma=2592000
+[DEBUG] 2025-02-09 01:30:05.335 [main] headers - << Content-Length: 2489
+[DEBUG] 2025-02-09 01:30:05.335 [main] headers - << Content-Type: application/json
+[DEBUG] 2025-02-09 01:30:05.335 [main] headers - << Date: Sat, 08 Feb 2025 23:30:03 GMT
+[DEBUG] 2025-02-09 01:30:05.335 [main] headers - << Vary: Accept-Encoding
+[DEBUG] 2025-02-09 01:30:05.335 [main] headers - << X-Beeceptor-Rule-Id: 6olf781wqk8
+[DEBUG] 2025-02-09 01:30:05.335 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2025-02-09 01:30:05.335 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-02-09 01:30:05.336 [main] wire -  << "[[\n]"
+[DEBUG] 2025-02-09 01:30:05.336 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:05.336 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:05.336 [main] wire -  << "    "id": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:05.336 [main] wire -  << "    "title": "Introduction to Artificial Intelligence",[\n]"
+[DEBUG] 2025-02-09 01:30:05.336 [main] wire -  << "    "body": "Learn the basics of Artificial Intelligence and its applications in various industries.",[\n]"
+[DEBUG] 2025-02-09 01:30:05.336 [main] wire -  << "    "link": "https://example.com/article1",[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "comment_count": 8[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "userId": 2,[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "id": 2,[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "title": "Web Development with React",[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "body": "Build modern web applications using React.js and explore its powerful features.",[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "link": "https://example.com/article2",[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "comment_count": 12[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "userId": 3,[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "id": 3,[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "title": "Data Science Fundamentals",[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "body": "Dive into the world of Data Science and discover how to analyze and interpret data.",[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "link": "https://example.com/article3",[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "comment_count": 5[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "userId": 4,[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "id": 4,[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "title": "Machine Learning Algorithms",[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "body": "Explore various Machine Learning algorithms and understand their workings.",[\n]"
+[DEBUG] 2025-02-09 01:30:05.337 [main] wire -  << "    "link": "https://example"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << ".com/article4",[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "    "comment_count": 17[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "    "userId": 5,[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "    "id": 5,[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "    "title": "Introduction to Blockchain",[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "    "body": "Learn about Blockchain technology, its use-cases, and how it ensures secure transactions.",[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "    "link": "https://example.com/article5",[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "    "comment_count": 3[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "    "userId": 6,[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "    "id": 6,[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "    "title": "iOS App Development",[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "    "body": "Get started with iOS app development using Swift and create feature-rich applications.",[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "    "link": "https://example.com/article6",[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "    "comment_count": 10[\n]"
+[DEBUG] 2025-02-09 01:30:05.338 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "userId": 7,[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "id": 7,[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "title": "Python for Data Analysis",[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "body": "Utilize Python libraries like Pandas and NumPy for data manipulation and analysis.",[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "link": "https://example.com/article7",[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "comment_count": 15[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "userId": 8,[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "id": 8,[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "title": "Cybersecurity Best Practices",[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "body": "Learn essential cybersecurity practices to safeguard your digital assets.",[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "link": "https://example.com/article8",[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "comment_count": 6[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "userId": 9,[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "id": 9,[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "title": "Cloud Computing Essentials",[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "body": "Understand the fundamentals of Cloud Computing and its benefits for businesses.",[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "link": "https://example.com/article9",[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "comment_count": 9[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "userId": 10,[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "id": 10,[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "title": "Introduction to UX Design",[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "body": "Discover the principles of User Experience (UX) design and create intuitive user interfaces.",[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "link": "https://example.com/article10",[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "    "comment_count": 21[\n]"
+[DEBUG] 2025-02-09 01:30:05.339 [main] wire -  << "  }[\n]"
+[DEBUG] 2025-02-09 01:30:05.340 [main] wire -  << "]"
+[DEBUG] 2025-02-09 01:30:05.340 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7b88a2e2
+[DEBUG] 2025-02-09 01:30:05.340 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2025-02-09 01:30:05.342 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2025-02-09 01:30:05.342 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2025-02-09 01:30:05.342 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Yehia.Metwally/.m2/repository/io/qameta/allure/allure-attachments/2.29.1/allure-attachments-2.29.1.jar!/tpl/http-response.ftl"
+[INFO ] 2025-02-09 01:30:05.346 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2025-02-09 01:30:05.374 [main] ReportManager - Handle response; GET | Target Status Code: 200 | Response Time: 803ms.
+[DEBUG] 2025-02-09 01:30:05.401 [main] CompiledPath - Evaluating path: $[*]
+[INFO ] 2025-02-09 01:30:05.402 [main] ReportManager - Get response jsonvalue as list; $[*].
+[INFO ] 2025-02-09 01:30:05.404 [main] ReportManager - Assert that "10" is equal to "10".
+[DEBUG] 2025-02-09 01:30:05.405 [main] ReportManager - Expected "10", and actual "10"
+[INFO ] 2025-02-09 01:30:05.406 [main] ReportManager - Expected "10", and actual "10"
+[INFO ] 2025-02-09 01:30:05.406 [main] ReportManager - Assertion passed
+[DEBUG] 2025-02-09 01:30:05.484 [main] CompiledPath - Evaluating path: $[?]['body']
+[DEBUG] 2025-02-09 01:30:05.485 [main] CompiledPath - Evaluating path: @['title']
+[DEBUG] 2025-02-09 01:30:05.485 [main] CompiledPath - Evaluating path: @['title']
+[DEBUG] 2025-02-09 01:30:05.486 [main] CompiledPath - Evaluating path: @['title']
+[DEBUG] 2025-02-09 01:30:05.486 [main] CompiledPath - Evaluating path: @['title']
+[DEBUG] 2025-02-09 01:30:05.486 [main] CompiledPath - Evaluating path: @['title']
+[DEBUG] 2025-02-09 01:30:05.486 [main] CompiledPath - Evaluating path: @['title']
+[DEBUG] 2025-02-09 01:30:05.486 [main] CompiledPath - Evaluating path: @['title']
+[DEBUG] 2025-02-09 01:30:05.486 [main] CompiledPath - Evaluating path: @['title']
+[DEBUG] 2025-02-09 01:30:05.486 [main] CompiledPath - Evaluating path: @['title']
+[DEBUG] 2025-02-09 01:30:05.486 [main] CompiledPath - Evaluating path: @['title']
+[INFO ] 2025-02-09 01:30:05.487 [main] ReportManager - Get response jsonvalue; $[?(@.title=='Data Science Fundamentals')].body.
+[INFO ] 2025-02-09 01:30:05.489 [main] ReportManager - Assert that "Dive into the world of Data Science and discover how to analyze and interpret data." is equal to "Dive into the world of Data Science and discover how to analyze and interpret data.".
+[DEBUG] 2025-02-09 01:30:05.491 [main] ReportManager - Expected "Dive into the world of Data Science and discover how to analyze and interpret data.", and actual "Dive into the world of Data Science and discover how to analyze and interpret data."
+[INFO ] 2025-02-09 01:30:05.491 [main] ReportManager - Expected "Dive into the world of Data Science and discover how to analyze and interpret data.", and actual "Dive into the world of Data Science and discover how to analyze and interpret data."
+[INFO ] 2025-02-09 01:30:05.492 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:05.495 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyPostBodyByTitle'
+[INFO ] 2025-02-09 01:30:05.495 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                               Finished Execution of Test Method: 'testCases.GetPostDetails.verifyPostBodyByTitle'                               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:30:05.507 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 7' test cases in the current suite                                        
+                                    Test Method: 'testCases.GetToDoListDetails.verifyListOfToDoTitlesForUser'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:30:05.509 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/GetToDoListTestData.json".
+[INFO ] 2025-02-09 01:30:05.513 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2025-02-09 01:30:05.588 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2025-02-09 01:30:05.588 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2025-02-09 01:30:05.589 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Yehia.Metwally/.m2/repository/io/qameta/allure/allure-attachments/2.29.1/allure-attachments-2.29.1.jar!/tpl/http-request.ftl"
+[DEBUG] 2025-02-09 01:30:05.628 [main] BasicClientConnectionManager - Get connection for route {s}->https://dummy-json.mock.beeceptor.com:443
+[DEBUG] 2025-02-09 01:30:05.629 [main] DefaultClientConnectionOperator - Connecting to dummy-json.mock.beeceptor.com:443
+[DEBUG] 2025-02-09 01:30:06.122 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-02-09 01:30:06.122 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-02-09 01:30:06.122 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-02-09 01:30:06.122 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-02-09 01:30:06.122 [main] DefaultClientConnection - Sending request: GET /todos HTTP/1.1
+[DEBUG] 2025-02-09 01:30:06.122 [main] wire -  >> "GET /todos HTTP/1.1[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.122 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.122 [main] wire -  >> "Host: dummy-json.mock.beeceptor.com[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.123 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.123 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.123 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.123 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.123 [main] headers - >> GET /todos HTTP/1.1
+[DEBUG] 2025-02-09 01:30:06.123 [main] headers - >> Accept: */*
+[DEBUG] 2025-02-09 01:30:06.123 [main] headers - >> Host: dummy-json.mock.beeceptor.com
+[DEBUG] 2025-02-09 01:30:06.123 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-02-09 01:30:06.123 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)
+[DEBUG] 2025-02-09 01:30:06.123 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-02-09 01:30:06.346 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.346 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.346 [main] wire -  << "Alt-Svc: h3=":443"; ma=2592000[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.346 [main] wire -  << "Content-Length: 1847[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.346 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.346 [main] wire -  << "Date: Sat, 08 Feb 2025 23:30:04 GMT[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.346 [main] wire -  << "Vary: Accept-Encoding[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.346 [main] wire -  << "X-Beeceptor-Rule-Id: xjw6vjxo8w[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.346 [main] wire -  << "[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.346 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-02-09 01:30:06.346 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-02-09 01:30:06.346 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-02-09 01:30:06.346 [main] headers - << Alt-Svc: h3=":443"; ma=2592000
+[DEBUG] 2025-02-09 01:30:06.346 [main] headers - << Content-Length: 1847
+[DEBUG] 2025-02-09 01:30:06.346 [main] headers - << Content-Type: application/json
+[DEBUG] 2025-02-09 01:30:06.346 [main] headers - << Date: Sat, 08 Feb 2025 23:30:04 GMT
+[DEBUG] 2025-02-09 01:30:06.346 [main] headers - << Vary: Accept-Encoding
+[DEBUG] 2025-02-09 01:30:06.346 [main] headers - << X-Beeceptor-Rule-Id: xjw6vjxo8w
+[DEBUG] 2025-02-09 01:30:06.347 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2025-02-09 01:30:06.347 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-02-09 01:30:06.347 [main] wire -  << "[[\n]"
+[DEBUG] 2025-02-09 01:30:06.347 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.347 [main] wire -  << "    "userId": 3,[\n]"
+[DEBUG] 2025-02-09 01:30:06.347 [main] wire -  << "    "id": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:06.347 [main] wire -  << "    "title": "Buy groceries",[\n]"
+[DEBUG] 2025-02-09 01:30:06.347 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:06.347 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.347 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.347 [main] wire -  << "    "userId": 5,[\n]"
+[DEBUG] 2025-02-09 01:30:06.347 [main] wire -  << "    "id": 2,[\n]"
+[DEBUG] 2025-02-09 01:30:06.347 [main] wire -  << "    "title": "Go for a walk",[\n]"
+[DEBUG] 2025-02-09 01:30:06.347 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:06.347 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.347 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.347 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "id": 3,[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "title": "Finish homework",[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "userId": 7,[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "id": 4,[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "title": "Read a book",[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "userId": 2,[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "id": 5,[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "title": "Pay bills",[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "userId": 4,[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "id": 6,[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "title": "Call a friend",[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "userId": 6,[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "id": 7,[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "title": "Clean the house",[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "userId": 9,[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "id": 8,[\n]"
+[DEBUG] 2025-02-09 01:30:06.348 [main] wire -  << "    "title": "Go to the gym",[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "    "userId": 8,[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "    "id": 9,[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "    "title": "Write a report",[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "    "userId": 2,[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "    "id": 10,[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "    "title": "Cook dinner",[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "    "id": 11,[\n]"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "    "t"
+[DEBUG] 2025-02-09 01:30:06.349 [main] wire -  << "itle": "Study for exams",[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "userId": 3,[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "id": 12,[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "title": "Do laundry",[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "userId": 5,[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "id": 13,[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "title": "Practice guitar",[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "userId": 7,[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "id": 14,[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "title": "Plan a trip",[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "userId": 9,[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "id": 15,[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "title": "Attend a meeting",[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "userId": 6,[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "id": 16,[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "title": "Water the plants",[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "userId": 4,[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "id": 17,[\n]"
+[DEBUG] 2025-02-09 01:30:06.350 [main] wire -  << "    "title": "Fix the car",[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "    "userId": 8,[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "    "id": 18,[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "    "title": "Watch a movie",[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "    "userId": 10,[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "    "id": 19,[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "    "title": "Visit the museum",[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "    "id": 20,[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "    "title": "Send an email",[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "  }[\n]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] wire -  << "]"
+[DEBUG] 2025-02-09 01:30:06.351 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@565bf1bb
+[DEBUG] 2025-02-09 01:30:06.351 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2025-02-09 01:30:06.353 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2025-02-09 01:30:06.353 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2025-02-09 01:30:06.353 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Yehia.Metwally/.m2/repository/io/qameta/allure/allure-attachments/2.29.1/allure-attachments-2.29.1.jar!/tpl/http-response.ftl"
+[INFO ] 2025-02-09 01:30:06.357 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2025-02-09 01:30:06.386 [main] ReportManager - Handle response; GET | Target Status Code: 200 | Response Time: 727ms.
+[DEBUG] 2025-02-09 01:30:06.408 [main] CompiledPath - Evaluating path: $[*]
+[INFO ] 2025-02-09 01:30:06.409 [main] ReportManager - Get response jsonvalue as list; $[*].
+[INFO ] 2025-02-09 01:30:06.411 [main] ReportManager - Assert that "20" is equal to "20".
+[DEBUG] 2025-02-09 01:30:06.412 [main] ReportManager - Expected "20", and actual "20"
+[INFO ] 2025-02-09 01:30:06.413 [main] ReportManager - Expected "20", and actual "20"
+[INFO ] 2025-02-09 01:30:06.413 [main] ReportManager - Assertion passed
+[DEBUG] 2025-02-09 01:30:06.465 [main] CompiledPath - Evaluating path: $[?]['title']
+[DEBUG] 2025-02-09 01:30:06.465 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.465 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.466 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.466 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.466 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.466 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.466 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.466 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.466 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.466 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.466 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.466 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.466 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.466 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.467 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.467 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.467 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.468 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.468 [main] CompiledPath - Evaluating path: @['userId']
+[DEBUG] 2025-02-09 01:30:06.468 [main] CompiledPath - Evaluating path: @['userId']
+[INFO ] 2025-02-09 01:30:06.469 [main] ReportManager - Get response jsonvalue as list; $[?(@.userId==5)].title.
+[INFO ] 2025-02-09 01:30:06.472 [main] ReportManager - Assert that "["Go for a walk","Practice guitar"]" is equal to "[Go for a walk, Practice guitar]".
+[DEBUG] 2025-02-09 01:30:06.474 [main] ReportManager - Expected "[Go for a walk, Practice guitar]", and actual "["Go for a walk","Practice guitar"]"
+[INFO ] 2025-02-09 01:30:06.474 [main] ReportManager - Expected "[Go for a walk, Practice guitar]", and actual "["Go for a walk","Practice guitar"]"
+[INFO ] 2025-02-09 01:30:06.475 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:06.477 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyListOfToDoTitlesForUser'
+[INFO ] 2025-02-09 01:30:06.477 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                         Finished Execution of Test Method: 'testCases.GetToDoListDetails.verifyListOfToDoTitlesForUser'                         
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:30:06.485 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 7' test cases in the current suite                                        
+                                       Test Method: 'testCases.GetToDoListDetails.verifyToDoListByStatus'                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:30:06.487 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/GetToDoListTestData.json".
+[INFO ] 2025-02-09 01:30:06.488 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2025-02-09 01:30:06.514 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2025-02-09 01:30:06.514 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2025-02-09 01:30:06.514 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Yehia.Metwally/.m2/repository/io/qameta/allure/allure-attachments/2.29.1/allure-attachments-2.29.1.jar!/tpl/http-request.ftl"
+[DEBUG] 2025-02-09 01:30:06.523 [main] BasicClientConnectionManager - Get connection for route {s}->https://dummy-json.mock.beeceptor.com:443
+[DEBUG] 2025-02-09 01:30:06.523 [main] DefaultClientConnectionOperator - Connecting to dummy-json.mock.beeceptor.com:443
+[DEBUG] 2025-02-09 01:30:06.989 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-02-09 01:30:06.989 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-02-09 01:30:06.989 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-02-09 01:30:06.989 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-02-09 01:30:06.989 [main] DefaultClientConnection - Sending request: GET /todos HTTP/1.1
+[DEBUG] 2025-02-09 01:30:06.989 [main] wire -  >> "GET /todos HTTP/1.1[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.989 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.989 [main] wire -  >> "Host: dummy-json.mock.beeceptor.com[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.989 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.989 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.989 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.989 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2025-02-09 01:30:06.989 [main] headers - >> GET /todos HTTP/1.1
+[DEBUG] 2025-02-09 01:30:06.989 [main] headers - >> Accept: */*
+[DEBUG] 2025-02-09 01:30:06.989 [main] headers - >> Host: dummy-json.mock.beeceptor.com
+[DEBUG] 2025-02-09 01:30:06.989 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-02-09 01:30:06.989 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)
+[DEBUG] 2025-02-09 01:30:06.989 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-02-09 01:30:07.213 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-02-09 01:30:07.213 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-02-09 01:30:07.214 [main] wire -  << "Alt-Svc: h3=":443"; ma=2592000[\r][\n]"
+[DEBUG] 2025-02-09 01:30:07.214 [main] wire -  << "Content-Length: 1847[\r][\n]"
+[DEBUG] 2025-02-09 01:30:07.214 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2025-02-09 01:30:07.214 [main] wire -  << "Date: Sat, 08 Feb 2025 23:30:04 GMT[\r][\n]"
+[DEBUG] 2025-02-09 01:30:07.214 [main] wire -  << "Vary: Accept-Encoding[\r][\n]"
+[DEBUG] 2025-02-09 01:30:07.214 [main] wire -  << "X-Beeceptor-Rule-Id: xjw6vjxo8w[\r][\n]"
+[DEBUG] 2025-02-09 01:30:07.214 [main] wire -  << "[\r][\n]"
+[DEBUG] 2025-02-09 01:30:07.214 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-02-09 01:30:07.214 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-02-09 01:30:07.214 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-02-09 01:30:07.214 [main] headers - << Alt-Svc: h3=":443"; ma=2592000
+[DEBUG] 2025-02-09 01:30:07.214 [main] headers - << Content-Length: 1847
+[DEBUG] 2025-02-09 01:30:07.214 [main] headers - << Content-Type: application/json
+[DEBUG] 2025-02-09 01:30:07.214 [main] headers - << Date: Sat, 08 Feb 2025 23:30:04 GMT
+[DEBUG] 2025-02-09 01:30:07.214 [main] headers - << Vary: Accept-Encoding
+[DEBUG] 2025-02-09 01:30:07.214 [main] headers - << X-Beeceptor-Rule-Id: xjw6vjxo8w
+[DEBUG] 2025-02-09 01:30:07.214 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2025-02-09 01:30:07.214 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "[[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "userId": 3,[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "id": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "title": "Buy groceries",[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "userId": 5,[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "id": 2,[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "title": "Go for a walk",[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "id": 3,[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "title": "Finish homework",[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "userId": 7,[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "id": 4,[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "title": "Read a book",[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "userId": 2,[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "id": 5,[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "title": "Pay bills",[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "userId": 4,[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "id": 6,[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "title": "Call a friend",[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "userId": 6,[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "id": 7,[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "title": "Clean the house",[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.215 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "    "userId": 9,[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "    "id": 8,[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "    "title": "Go to the gym",[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "    "userId": 8,[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "    "id": 9,[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "    "title": "Write a report",[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "    "userId": 2,[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "    "id": 10,[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "    "title": "Cook dinner",[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "    "id": 11,[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "    "t"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "itle": "Study for exams",[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:07.216 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "userId": 3,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "id": 12,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "title": "Do laundry",[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "userId": 5,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "id": 13,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "title": "Practice guitar",[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "userId": 7,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "id": 14,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "title": "Plan a trip",[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "userId": 9,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "id": 15,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "title": "Attend a meeting",[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "userId": 6,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "id": 16,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "title": "Water the plants",[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "userId": 4,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "id": 17,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "title": "Fix the car",[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "userId": 8,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "id": 18,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "title": "Watch a movie",[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "userId": 10,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "id": 19,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "title": "Visit the museum",[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "id": 20,[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "title": "Send an email",[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "  }[\n]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] wire -  << "]"
+[DEBUG] 2025-02-09 01:30:07.217 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6da14f7f
+[DEBUG] 2025-02-09 01:30:07.217 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2025-02-09 01:30:07.218 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2025-02-09 01:30:07.218 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2025-02-09 01:30:07.218 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Yehia.Metwally/.m2/repository/io/qameta/allure/allure-attachments/2.29.1/allure-attachments-2.29.1.jar!/tpl/http-response.ftl"
+[INFO ] 2025-02-09 01:30:07.221 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2025-02-09 01:30:07.240 [main] ReportManager - Handle response; GET | Target Status Code: 200 | Response Time: 696ms.
+[DEBUG] 2025-02-09 01:30:07.270 [main] CompiledPath - Evaluating path: $[*]
+[INFO ] 2025-02-09 01:30:07.271 [main] ReportManager - Get response jsonvalue as list; $[*].
+[INFO ] 2025-02-09 01:30:07.272 [main] ReportManager - Assert that "20" is equal to "20".
+[DEBUG] 2025-02-09 01:30:07.273 [main] ReportManager - Expected "20", and actual "20"
+[INFO ] 2025-02-09 01:30:07.273 [main] ReportManager - Expected "20", and actual "20"
+[INFO ] 2025-02-09 01:30:07.273 [main] ReportManager - Assertion passed
+[DEBUG] 2025-02-09 01:30:07.295 [main] CompiledPath - Evaluating path: $[?]['title']
+[DEBUG] 2025-02-09 01:30:07.295 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.295 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.296 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.297 [main] CompiledPath - Evaluating path: @['completed']
+[INFO ] 2025-02-09 01:30:07.297 [main] ReportManager - Get response jsonvalue as list; $[?(@.completed==true)].title.
+[INFO ] 2025-02-09 01:30:07.299 [main] ReportManager - Assert that "["Go for a walk","Read a book","Call a friend","Go to the gym","Cook dinner","Do laundry","Plan a trip","Water the plants","Watch a movie","Send an email"]" is equal to "[Go for a walk, Read a book, Call a friend, Go to the gym, Cook dinner, Do laundry, Plan a trip, Water the plants, Watch a movie, Send an email]".
+[DEBUG] 2025-02-09 01:30:07.301 [main] ReportManager - Expected "[Go for a walk, Read a book, Call a friend, Go to the gym, Cook dinner, Do laundry, Plan a trip, Water the plants, Watch a movie, Send an email]", and actual "["Go for a walk","Read a book","Call a friend","Go to the gym","Cook dinner","Do laundry","Plan a trip","Water the plants","Watch a movie","Send an email"]"
+[INFO ] 2025-02-09 01:30:07.301 [main] ReportManager - Expected "[Go for a walk, Read a book, Call a friend, Go to the gym, Cook dinner, Do laundry, Plan a trip, Water the plants, Watch a movie, Send an email]", and actual "["Go for a walk","Read a book","Call a friend","Go to the gym","Cook dinner","Do laundry","Plan a trip","Water the plants","Watch a movie","Send an email"]"
+[INFO ] 2025-02-09 01:30:07.301 [main] ReportManager - Assertion passed
+[DEBUG] 2025-02-09 01:30:07.320 [main] CompiledPath - Evaluating path: $[?]['title']
+[DEBUG] 2025-02-09 01:30:07.321 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.321 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.321 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.321 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.321 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.321 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.321 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.321 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.321 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.321 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.321 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.321 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.321 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.321 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.321 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.322 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.322 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.322 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.322 [main] CompiledPath - Evaluating path: @['completed']
+[DEBUG] 2025-02-09 01:30:07.322 [main] CompiledPath - Evaluating path: @['completed']
+[INFO ] 2025-02-09 01:30:07.323 [main] ReportManager - Get response jsonvalue as list; $[?(@.completed==false)].title.
+[INFO ] 2025-02-09 01:30:07.324 [main] ReportManager - Assert that "["Buy groceries","Finish homework","Pay bills","Clean the house","Write a report","Study for exams","Practice guitar","Attend a meeting","Fix the car","Visit the museum"]" is equal to "[Buy groceries, Finish homework, Pay bills, Clean the house, Write a report, Study for exams, Practice guitar, Attend a meeting, Fix the car, Visit the museum]".
+[DEBUG] 2025-02-09 01:30:07.326 [main] ReportManager - Expected "[Buy groceries, Finish homework, Pay bills, Clean the house, Write a report, Study for exams, Practice guitar, Attend a meeting, Fix the car, Visit the museum]", and actual "["Buy groceries","Finish homework","Pay bills","Clean the house","Write a report","Study for exams","Practice guitar","Attend a meeting","Fix the car","Visit the museum"]"
+[INFO ] 2025-02-09 01:30:07.326 [main] ReportManager - Expected "[Buy groceries, Finish homework, Pay bills, Clean the house, Write a report, Study for exams, Practice guitar, Attend a meeting, Fix the car, Visit the museum]", and actual "["Buy groceries","Finish homework","Pay bills","Clean the house","Write a report","Study for exams","Practice guitar","Attend a meeting","Fix the car","Visit the museum"]"
+[INFO ] 2025-02-09 01:30:07.327 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:07.330 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyToDoListByStatus'
+[INFO ] 2025-02-09 01:30:07.330 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                            Finished Execution of Test Method: 'testCases.GetToDoListDetails.verifyToDoListByStatus'                            
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:30:07.339 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '6 out of 7' test cases in the current suite                                        
+                                         Test Method: 'testCases.GetToDoListDetails.verifyToDoTitleByID'                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:30:07.340 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/GetToDoListTestData.json".
+[INFO ] 2025-02-09 01:30:07.342 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2025-02-09 01:30:07.373 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2025-02-09 01:30:07.373 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2025-02-09 01:30:07.373 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Yehia.Metwally/.m2/repository/io/qameta/allure/allure-attachments/2.29.1/allure-attachments-2.29.1.jar!/tpl/http-request.ftl"
+[DEBUG] 2025-02-09 01:30:07.384 [main] BasicClientConnectionManager - Get connection for route {s}->https://dummy-json.mock.beeceptor.com:443
+[DEBUG] 2025-02-09 01:30:07.384 [main] DefaultClientConnectionOperator - Connecting to dummy-json.mock.beeceptor.com:443
+[DEBUG] 2025-02-09 01:30:07.842 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-02-09 01:30:07.842 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-02-09 01:30:07.842 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-02-09 01:30:07.842 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-02-09 01:30:07.842 [main] DefaultClientConnection - Sending request: GET /todos HTTP/1.1
+[DEBUG] 2025-02-09 01:30:07.842 [main] wire -  >> "GET /todos HTTP/1.1[\r][\n]"
+[DEBUG] 2025-02-09 01:30:07.842 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-02-09 01:30:07.842 [main] wire -  >> "Host: dummy-json.mock.beeceptor.com[\r][\n]"
+[DEBUG] 2025-02-09 01:30:07.842 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-02-09 01:30:07.842 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)[\r][\n]"
+[DEBUG] 2025-02-09 01:30:07.842 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-02-09 01:30:07.842 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2025-02-09 01:30:07.842 [main] headers - >> GET /todos HTTP/1.1
+[DEBUG] 2025-02-09 01:30:07.842 [main] headers - >> Accept: */*
+[DEBUG] 2025-02-09 01:30:07.842 [main] headers - >> Host: dummy-json.mock.beeceptor.com
+[DEBUG] 2025-02-09 01:30:07.842 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-02-09 01:30:07.842 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)
+[DEBUG] 2025-02-09 01:30:07.842 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-02-09 01:30:08.078 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.079 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.079 [main] wire -  << "Alt-Svc: h3=":443"; ma=2592000[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.079 [main] wire -  << "Content-Length: 1847[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.079 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.079 [main] wire -  << "Date: Sat, 08 Feb 2025 23:30:05 GMT[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.079 [main] wire -  << "Vary: Accept-Encoding[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.079 [main] wire -  << "X-Beeceptor-Rule-Id: xjw6vjxo8w[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.079 [main] wire -  << "[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.079 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-02-09 01:30:08.079 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-02-09 01:30:08.079 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-02-09 01:30:08.079 [main] headers - << Alt-Svc: h3=":443"; ma=2592000
+[DEBUG] 2025-02-09 01:30:08.079 [main] headers - << Content-Length: 1847
+[DEBUG] 2025-02-09 01:30:08.079 [main] headers - << Content-Type: application/json
+[DEBUG] 2025-02-09 01:30:08.079 [main] headers - << Date: Sat, 08 Feb 2025 23:30:05 GMT
+[DEBUG] 2025-02-09 01:30:08.079 [main] headers - << Vary: Accept-Encoding
+[DEBUG] 2025-02-09 01:30:08.079 [main] headers - << X-Beeceptor-Rule-Id: xjw6vjxo8w
+[DEBUG] 2025-02-09 01:30:08.079 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2025-02-09 01:30:08.079 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "[[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "userId": 3,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "id": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "title": "Buy groceries",[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "userId": 5,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "id": 2,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "title": "Go for a walk",[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "id": 3,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "title": "Finish homework",[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "userId": 7,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "id": 4,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "title": "Read a book",[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "userId": 2,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "id": 5,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "title": "Pay bills",[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "userId": 4,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "id": 6,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "title": "Call a friend",[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "userId": 6,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "id": 7,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "title": "Clean the house",[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "userId": 9,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "id": 8,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "title": "Go to the gym",[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "userId": 8,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "id": 9,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "title": "Write a report",[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "userId": 2,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "id": 10,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "title": "Cook dinner",[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "id": 11,[\n]"
+[DEBUG] 2025-02-09 01:30:08.080 [main] wire -  << "    "t"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "itle": "Study for exams",[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "userId": 3,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "id": 12,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "title": "Do laundry",[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "userId": 5,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "id": 13,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "title": "Practice guitar",[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "userId": 7,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "id": 14,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "title": "Plan a trip",[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "userId": 9,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "id": 15,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "title": "Attend a meeting",[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "userId": 6,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "id": 16,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "title": "Water the plants",[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "userId": 4,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "id": 17,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "title": "Fix the car",[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "userId": 8,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "id": 18,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "title": "Watch a movie",[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "userId": 10,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "id": 19,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "title": "Visit the museum",[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "completed": false[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  },[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  {[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "userId": 1,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "id": 20,[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "title": "Send an email",[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "    "completed": true[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "  }[\n]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] wire -  << "]"
+[DEBUG] 2025-02-09 01:30:08.081 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@20305c45
+[DEBUG] 2025-02-09 01:30:08.081 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2025-02-09 01:30:08.082 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2025-02-09 01:30:08.082 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2025-02-09 01:30:08.082 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Yehia.Metwally/.m2/repository/io/qameta/allure/allure-attachments/2.29.1/allure-attachments-2.29.1.jar!/tpl/http-response.ftl"
+[INFO ] 2025-02-09 01:30:08.086 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2025-02-09 01:30:08.106 [main] ReportManager - Handle response; GET | Target Status Code: 200 | Response Time: 700ms.
+[DEBUG] 2025-02-09 01:30:08.122 [main] CompiledPath - Evaluating path: $[*]
+[INFO ] 2025-02-09 01:30:08.123 [main] ReportManager - Get response jsonvalue as list; $[*].
+[INFO ] 2025-02-09 01:30:08.126 [main] ReportManager - Assert that "20" is equal to "20".
+[DEBUG] 2025-02-09 01:30:08.129 [main] ReportManager - Expected "20", and actual "20"
+[INFO ] 2025-02-09 01:30:08.129 [main] ReportManager - Expected "20", and actual "20"
+[INFO ] 2025-02-09 01:30:08.130 [main] ReportManager - Assertion passed
+[DEBUG] 2025-02-09 01:30:08.197 [main] CompiledPath - Evaluating path: $[?]['title']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.198 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.199 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.199 [main] CompiledPath - Evaluating path: @['id']
+[DEBUG] 2025-02-09 01:30:08.199 [main] CompiledPath - Evaluating path: @['id']
+[INFO ] 2025-02-09 01:30:08.199 [main] ReportManager - Get response jsonvalue; $[?(@.id==1)].title.
+[INFO ] 2025-02-09 01:30:08.201 [main] ReportManager - Assert that "Buy groceries" is equal to "Buy groceries".
+[DEBUG] 2025-02-09 01:30:08.202 [main] ReportManager - Expected "Buy groceries", and actual "Buy groceries"
+[INFO ] 2025-02-09 01:30:08.202 [main] ReportManager - Expected "Buy groceries", and actual "Buy groceries"
+[INFO ] 2025-02-09 01:30:08.203 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:08.205 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyToDoTitleByID'
+[INFO ] 2025-02-09 01:30:08.205 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                              Finished Execution of Test Method: 'testCases.GetToDoListDetails.verifyToDoTitleByID'                              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:30:08.212 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 7' test cases in the current suite                                        
+                                       Test Method: 'testCases.GetUserDetailsByID.getUserDetailsByUserID'                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:30:08.215 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/GetUsersTestData.json".
+[INFO ] 2025-02-09 01:30:08.216 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2025-02-09 01:30:08.265 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2025-02-09 01:30:08.266 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2025-02-09 01:30:08.266 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Yehia.Metwally/.m2/repository/io/qameta/allure/allure-attachments/2.29.1/allure-attachments-2.29.1.jar!/tpl/http-request.ftl"
+[DEBUG] 2025-02-09 01:30:08.276 [main] BasicClientConnectionManager - Get connection for route {s}->https://fake-json-api.mock.beeceptor.com:443
+[DEBUG] 2025-02-09 01:30:08.276 [main] DefaultClientConnectionOperator - Connecting to fake-json-api.mock.beeceptor.com:443
+[DEBUG] 2025-02-09 01:30:08.762 [main] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-02-09 01:30:08.762 [main] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-02-09 01:30:08.762 [main] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-02-09 01:30:08.762 [main] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-02-09 01:30:08.762 [main] DefaultClientConnection - Sending request: GET /users/2 HTTP/1.1
+[DEBUG] 2025-02-09 01:30:08.762 [main] wire -  >> "GET /users/2 HTTP/1.1[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.762 [main] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.762 [main] wire -  >> "Host: fake-json-api.mock.beeceptor.com[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.762 [main] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.762 [main] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.762 [main] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.762 [main] wire -  >> "[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.762 [main] headers - >> GET /users/2 HTTP/1.1
+[DEBUG] 2025-02-09 01:30:08.762 [main] headers - >> Accept: */*
+[DEBUG] 2025-02-09 01:30:08.762 [main] headers - >> Host: fake-json-api.mock.beeceptor.com
+[DEBUG] 2025-02-09 01:30:08.762 [main] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-02-09 01:30:08.762 [main] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.3)
+[DEBUG] 2025-02-09 01:30:08.762 [main] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-02-09 01:30:08.988 [main] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.989 [main] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.989 [main] wire -  << "Alt-Svc: h3=":443"; ma=2592000[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.989 [main] wire -  << "Content-Length: 354[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.989 [main] wire -  << "Content-Type: application/json[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.989 [main] wire -  << "Date: Sat, 08 Feb 2025 23:30:06 GMT[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.989 [main] wire -  << "Vary: Accept-Encoding[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.989 [main] wire -  << "X-Beeceptor-Rule-Id: te1t7fyrfof[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.989 [main] wire -  << "[\r][\n]"
+[DEBUG] 2025-02-09 01:30:08.989 [main] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-02-09 01:30:08.989 [main] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-02-09 01:30:08.989 [main] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-02-09 01:30:08.989 [main] headers - << Alt-Svc: h3=":443"; ma=2592000
+[DEBUG] 2025-02-09 01:30:08.989 [main] headers - << Content-Length: 354
+[DEBUG] 2025-02-09 01:30:08.989 [main] headers - << Content-Type: application/json
+[DEBUG] 2025-02-09 01:30:08.989 [main] headers - << Date: Sat, 08 Feb 2025 23:30:06 GMT
+[DEBUG] 2025-02-09 01:30:08.989 [main] headers - << Vary: Accept-Encoding
+[DEBUG] 2025-02-09 01:30:08.989 [main] headers - << X-Beeceptor-Rule-Id: te1t7fyrfof
+[DEBUG] 2025-02-09 01:30:08.989 [main] RestAssuredHttpBuilder - Parsing response as: application/json
+[DEBUG] 2025-02-09 01:30:08.989 [main] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-02-09 01:30:08.990 [main] wire -  << "{[\n]"
+[DEBUG] 2025-02-09 01:30:08.990 [main] wire -  << "    "id": 2,[\n]"
+[DEBUG] 2025-02-09 01:30:08.990 [main] wire -  << "    "name": "Xavier Renner",[\n]"
+[DEBUG] 2025-02-09 01:30:08.990 [main] wire -  << "    "company": "Blanda and Sons",[\n]"
+[DEBUG] 2025-02-09 01:30:08.990 [main] wire -  << "    "username": "Bernardo24",[\n]"
+[DEBUG] 2025-02-09 01:30:08.990 [main] wire -  << "    "email": "Claude_Murazik@gmail.com",[\n]"
+[DEBUG] 2025-02-09 01:30:08.990 [main] wire -  << "    "address": "3680 W 1st Street",[\n]"
+[DEBUG] 2025-02-09 01:30:08.990 [main] wire -  << "    "zip": "19782",[\n]"
+[DEBUG] 2025-02-09 01:30:08.990 [main] wire -  << "    "state": "Arizona",[\n]"
+[DEBUG] 2025-02-09 01:30:08.990 [main] wire -  << "    "country": "Lithuania",[\n]"
+[DEBUG] 2025-02-09 01:30:08.990 [main] wire -  << "    "phone": "1-497-745-3762 x06443",[\n]"
+[DEBUG] 2025-02-09 01:30:08.990 [main] wire -  << "    "photo": "https://json-server.dev/ai-profiles/84.png"[\n]"
+[DEBUG] 2025-02-09 01:30:08.990 [main] wire -  << "}"
+[DEBUG] 2025-02-09 01:30:08.990 [main] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5f455d91
+[DEBUG] 2025-02-09 01:30:08.990 [main] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[DEBUG] 2025-02-09 01:30:08.990 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2025-02-09 01:30:08.990 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2025-02-09 01:30:08.990 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Yehia.Metwally/.m2/repository/io/qameta/allure/allure-attachments/2.29.1/allure-attachments-2.29.1.jar!/tpl/http-response.ftl"
+[INFO ] 2025-02-09 01:30:08.993 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2025-02-09 01:30:09.005 [main] ReportManager - Handle response; GET | Target Status Code: 200 | Response Time: 719ms.
+[INFO ] 2025-02-09 01:30:09.028 [main] ReportManager - Assert that "2" is equal to "2".
+[DEBUG] 2025-02-09 01:30:09.029 [main] ReportManager - Expected "2", and actual "2"
+[INFO ] 2025-02-09 01:30:09.029 [main] ReportManager - Expected "2", and actual "2"
+[INFO ] 2025-02-09 01:30:09.029 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:09.031 [main] ReportManager - Assert that "Xavier Renner" is not NULL.
+[DEBUG] 2025-02-09 01:30:09.032 [main] ReportManager - Expected "null", and actual "Xavier Renner"
+[INFO ] 2025-02-09 01:30:09.032 [main] ReportManager - Expected "null", and actual "Xavier Renner"
+[INFO ] 2025-02-09 01:30:09.032 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:09.034 [main] ReportManager - Assert that "Blanda and Sons" is not NULL.
+[DEBUG] 2025-02-09 01:30:09.035 [main] ReportManager - Expected "null", and actual "Blanda and Sons"
+[INFO ] 2025-02-09 01:30:09.035 [main] ReportManager - Expected "null", and actual "Blanda and Sons"
+[INFO ] 2025-02-09 01:30:09.035 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:09.037 [main] ReportManager - Assert that "Bernardo24" is not NULL.
+[DEBUG] 2025-02-09 01:30:09.038 [main] ReportManager - Expected "null", and actual "Bernardo24"
+[INFO ] 2025-02-09 01:30:09.038 [main] ReportManager - Expected "null", and actual "Bernardo24"
+[INFO ] 2025-02-09 01:30:09.039 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:09.042 [main] ReportManager - Assert that "Claude_Murazik@gmail.com" is not NULL.
+[DEBUG] 2025-02-09 01:30:09.042 [main] ReportManager - Expected "null", and actual "Claude_Murazik@gmail.com"
+[INFO ] 2025-02-09 01:30:09.043 [main] ReportManager - Expected "null", and actual "Claude_Murazik@gmail.com"
+[INFO ] 2025-02-09 01:30:09.043 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:09.045 [main] ReportManager - Assert that "3680 W 1st Street" is not NULL.
+[DEBUG] 2025-02-09 01:30:09.046 [main] ReportManager - Expected "null", and actual "3680 W 1st Street"
+[INFO ] 2025-02-09 01:30:09.046 [main] ReportManager - Expected "null", and actual "3680 W 1st Street"
+[INFO ] 2025-02-09 01:30:09.047 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:09.048 [main] ReportManager - Assert that "19782" is not NULL.
+[DEBUG] 2025-02-09 01:30:09.049 [main] ReportManager - Expected "null", and actual "19782"
+[INFO ] 2025-02-09 01:30:09.049 [main] ReportManager - Expected "null", and actual "19782"
+[INFO ] 2025-02-09 01:30:09.050 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:09.051 [main] ReportManager - Assert that "Arizona" is not NULL.
+[DEBUG] 2025-02-09 01:30:09.052 [main] ReportManager - Expected "null", and actual "Arizona"
+[INFO ] 2025-02-09 01:30:09.052 [main] ReportManager - Expected "null", and actual "Arizona"
+[INFO ] 2025-02-09 01:30:09.052 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:09.053 [main] ReportManager - Assert that "Lithuania" is not NULL.
+[DEBUG] 2025-02-09 01:30:09.054 [main] ReportManager - Expected "null", and actual "Lithuania"
+[INFO ] 2025-02-09 01:30:09.054 [main] ReportManager - Expected "null", and actual "Lithuania"
+[INFO ] 2025-02-09 01:30:09.055 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:09.056 [main] ReportManager - Assert that "1-497-745-3762 x06443" is not NULL.
+[DEBUG] 2025-02-09 01:30:09.057 [main] ReportManager - Expected "null", and actual "1-497-745-3762 x06443"
+[INFO ] 2025-02-09 01:30:09.057 [main] ReportManager - Expected "null", and actual "1-497-745-3762 x06443"
+[INFO ] 2025-02-09 01:30:09.057 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:09.058 [main] ReportManager - Assert that "https://json-server.dev/ai-profiles/84.png" is not NULL.
+[DEBUG] 2025-02-09 01:30:09.059 [main] ReportManager - Expected "null", and actual "https://json-server.dev/ai-profiles/84.png"
+[INFO ] 2025-02-09 01:30:09.059 [main] ReportManager - Expected "null", and actual "https://json-server.dev/ai-profiles/84.png"
+[INFO ] 2025-02-09 01:30:09.059 [main] ReportManager - Assertion passed
+[INFO ] 2025-02-09 01:30:09.060 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: getUserDetailsByUserID'
+[INFO ] 2025-02-09 01:30:09.060 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                            Finished Execution of Test Method: 'testCases.GetUserDetailsByID.getUserDetailsByUserID'                            
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:30:09.063 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-02-09 01:30:09.064 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

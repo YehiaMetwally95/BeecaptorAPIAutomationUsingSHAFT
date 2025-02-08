@@ -1,0 +1,25 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 7' test cases in the current suite                                        
+                                       Test Method: 'testCases.GetToDoListDetails.verifyToDoListByStatus'                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/GetToDoListTestData.json". @09-02-2025 01:30:06.0487 AM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @09-02-2025 01:30:06.0488 AM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @09-02-2025 01:30:07.0221 AM
+[ReportManager] Handle response; GET | Target Status Code: 200 | Response Time: 696ms. @09-02-2025 01:30:07.0240 AM
+[ReportManager] Get response jsonvalue as list; $[*]. @09-02-2025 01:30:07.0271 AM
+[ReportManager] Assert that "20" is equal to "20". @09-02-2025 01:30:07.0272 AM
+[ReportManager] Expected "20", and actual "20" @09-02-2025 01:30:07.0273 AM
+[ReportManager] Expected "20", and actual "20" @09-02-2025 01:30:07.0273 AM
+[ReportManager] Assertion passed @09-02-2025 01:30:07.0273 AM
+[ReportManager] Get response jsonvalue as list; $[?(@.completed==true)].title. @09-02-2025 01:30:07.0297 AM
+[ReportManager] Assert that "["Go for a walk","Read a book","Call a friend","Go to the gym","Cook dinner","Do laundry","Plan a trip","Water the plants","Watch a movie","Send an email"]" is equal to "[Go for a walk, Read a book, Call a friend, Go to the gym, Cook dinner, Do laundry, Plan a trip, Water the plants, Watch a movie, Send an email]". @09-02-2025 01:30:07.0299 AM
+[ReportManager] Expected "[Go for a walk, Read a book, Call a friend, Go to the gym, Cook dinner, Do laundry, Plan a trip, Water the plants, Watch a movie, Send an email]", and actual "["Go for a walk","Read a book","Call a friend","Go to the gym","Cook dinner","Do laundry","Plan a trip","Water the plants","Watch a movie","Send an email"]" @09-02-2025 01:30:07.0301 AM
+[ReportManager] Expected "[Go for a walk, Read a book, Call a friend, Go to the gym, Cook dinner, Do laundry, Plan a trip, Water the plants, Watch a movie, Send an email]", and actual "["Go for a walk","Read a book","Call a friend","Go to the gym","Cook dinner","Do laundry","Plan a trip","Water the plants","Watch a movie","Send an email"]" @09-02-2025 01:30:07.0301 AM
+[ReportManager] Assertion passed @09-02-2025 01:30:07.0301 AM
+[ReportManager] Get response jsonvalue as list; $[?(@.completed==false)].title. @09-02-2025 01:30:07.0322 AM
+[ReportManager] Assert that "["Buy groceries","Finish homework","Pay bills","Clean the house","Write a report","Study for exams","Practice guitar","Attend a meeting","Fix the car","Visit the museum"]" is equal to "[Buy groceries, Finish homework, Pay bills, Clean the house, Write a report, Study for exams, Practice guitar, Attend a meeting, Fix the car, Visit the museum]". @09-02-2025 01:30:07.0324 AM
+[ReportManager] Expected "[Buy groceries, Finish homework, Pay bills, Clean the house, Write a report, Study for exams, Practice guitar, Attend a meeting, Fix the car, Visit the museum]", and actual "["Buy groceries","Finish homework","Pay bills","Clean the house","Write a report","Study for exams","Practice guitar","Attend a meeting","Fix the car","Visit the museum"]" @09-02-2025 01:30:07.0325 AM
+[ReportManager] Expected "[Buy groceries, Finish homework, Pay bills, Clean the house, Write a report, Study for exams, Practice guitar, Attend a meeting, Fix the car, Visit the museum]", and actual "["Buy groceries","Finish homework","Pay bills","Clean the house","Write a report","Study for exams","Practice guitar","Attend a meeting","Fix the car","Visit the museum"]" @09-02-2025 01:30:07.0326 AM
+[ReportManager] Assertion passed @09-02-2025 01:30:07.0327 AM

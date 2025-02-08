@@ -1,0 +1,20 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 7' test cases in the current suite                                        
+                                       Test Method: 'testCases.GetPostDetails.verifyCommentsCountForPost'                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Loaded Test Data: "src/test/resources/testDataFiles/GetPostsTestData.json". @09-02-2025 01:30:03.0080 AM
+[ReportManager] Successfully created attachment 'Test Data - JSON' @09-02-2025 01:30:03.0084 AM
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @09-02-2025 01:30:03.0910 AM
+[ReportManager] Handle response; GET | Target Status Code: 200 | Response Time: 716ms. @09-02-2025 01:30:03.0952 AM
+[ReportManager] Get response jsonvalue as list; $[*]. @09-02-2025 01:30:04.0218 AM
+[ReportManager] Assert that "10" is equal to "10". @09-02-2025 01:30:04.0221 AM
+[ReportManager] Expected "10", and actual "10" @09-02-2025 01:30:04.0225 AM
+[ReportManager] Expected "10", and actual "10" @09-02-2025 01:30:04.0225 AM
+[ReportManager] Assertion passed @09-02-2025 01:30:04.0226 AM
+[ReportManager] Get response jsonvalue; $[?(@.link=='https://example.com/article3')].comment_count. @09-02-2025 01:30:04.0384 AM
+[ReportManager] Assert that "5" is equal to "5". @09-02-2025 01:30:04.0388 AM
+[ReportManager] Expected "5", and actual "5" @09-02-2025 01:30:04.0390 AM
+[ReportManager] Expected "5", and actual "5" @09-02-2025 01:30:04.0391 AM
+[ReportManager] Assertion passed @09-02-2025 01:30:04.0392 AM
