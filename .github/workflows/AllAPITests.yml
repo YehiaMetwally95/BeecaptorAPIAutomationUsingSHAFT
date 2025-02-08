@@ -4,10 +4,12 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
       - master
+  schedule:
+    - cron: '00 4 * * *'
 
 jobs:
   API_Tests:
