@@ -35,11 +35,9 @@ jobs:
         continue-on-error: true
         run: >
           mvn clean test -Dtest="testCases.GetAllCompanies.*,
-          testCases.GetPostDetails.*
-          testCases.GetToDoListDetails.*
+          testCases.GetPostDetails.*,
+          testCases.GetToDoListDetails.*,
           testCases.GetUserDetailsByID.*"
-          -DretryMaximumNumberOfAttempts="3"
-          -DautomaticallyAssertResponseStatusCode="false"
 
       - name: Upload Allure Report as Artifact
         uses: actions/upload-artifact@v4
