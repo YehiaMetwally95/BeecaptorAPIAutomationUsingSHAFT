@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+
+<suite name="API Suit">
+
+    <test name="Users Tests">
+        <classes>
+            <class name = "testCases.GetUserDetailsByID"> </class>
+        </classes>
+    </test>
+
+    <test name="Companies Tests">
+        <classes>
+            <class name = "testCases.GetAllCompanies"> </class>
+        </classes>
+    </test>
+
+    <test name="Posts Tests">
+        <classes>
+            <class name = "testCases.GetPostDetails"> </class>
+        </classes>
+    </test>
+
+    <test name="ToDo Tests">
+        <classes>
+            <class name = "testCases.GetToDoListDetails"> </class>
+        </classes>
+    </test>
+</suite>
